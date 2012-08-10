@@ -1,6 +1,5 @@
 [gerrit]
 host=gerrit.wikimedia.org
 port=29418
-project=mediawiki/extensions/WikiLovesMonuments
+project=mediawiki/extensions/WikiLovesMonuments.git
 defaultbranch=master
-defaultrebase=0
