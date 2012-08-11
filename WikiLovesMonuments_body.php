@@ -62,6 +62,47 @@ class WikiLovesMonuments {
 			)
 	);
 	
+	/**
+	 * Web sites for the local competition of each country
+	 */
+	/*const*/ static $websites = array(
+		'ad' => 'http://www.wikilovesmonuments.cat/', // Andorra and Catalan areas WP
+		'ar' => false, // Argentina
+		'at' => 'http://wikilovesmonuments.at/', // Austria WP
+		'by' => false, // Belarus
+		'be' => 'http://www.wikilovesmonuments.be/', // Belgium MW
+		'ca' => 'http://wikimedia.ca/wlmca/', // Canada MW
+		'cl' => 'http://www.wikilovesmonuments.cl/', // Chile WP
+		'co' => 'http://www.wikilovesmonuments.co/', // Colombia WP
+		'cz' => 'http://www.wikilovesmonuments.cz/', // Czech Republic WP
+		'dk' => false, // Denmark
+		'ee' => false, // Estonia
+		'fr' => 'http://wikilovesmonuments.fr/', // France WP
+		'de' => 'http://de.wikipedia.org/wiki/Wikipedia:Wiki_loves_monuments_2012', // Germany (redirected from http://wikilovesmonuments.de/)
+		'hu' => 'http://www.wikilovesmonuments.hu/', // Hungary custom
+		'in' => 'http://www.wikilovesmonuments.in/', // India WP
+		'il' => false, // Israel
+		'it' => 'http://www.wikilovesmonuments.it/', // Italy WP
+		'ke' => false, // Kenya
+		'lb' => false, // Liechtenstein
+		'lu' => 'http://www.wikilovesmonuments.be/', // Luxembourg MW
+		'mx' => false, // Mexico
+		'nl' => 'http://www.wikilovesmonuments.nl/', // Netherlands WP
+		'pa' => 'http://www.wlmpanama.org.pa/', // Panama WP
+		'ph' => 'http://www.wikilovesmonuments.ph/', // Philippines WP
+		'pl' => 'http://wikizabytki.pl/', // Poland WP
+		'pt' => 'http://www.wikilovesmonuments.org.pt/', // Portugal custom+MW
+		'ro' => 'http://wikilovesmonuments.ro/', // Romania WP
+		'ru' => 'http://wikilovesmonuments.ru/', // Russia WP
+		'rs' => 'http://wlm.wikimedia.rs/', // Serbia placeholder
+		'za' => 'http://wikilovesmonuments.co.za/', // South Africa MW
+		'es' => 'http://www.wikilm.es/', // Spain MW
+		'se' => 'http://wikilovesmonuments.se/', // Sweden WP
+		'ch' => 'http://wikilovesmonuments.ch/', // Switzerland WP
+		'ua' => 'http://wlm.org.ua/', // Ukraine WP
+		'us' => 'http://wikilovesmonuments.us/', // United States WP
+	);
+
 	static function registerParserFunctions( $parser ) {
 		if ( class_exists( 'CountryNames' ) ) // Provided by cldr extension
 			$parser->setFunctionHook( 'wlm-countries', 'WikiLovesMonuments::countries' );
