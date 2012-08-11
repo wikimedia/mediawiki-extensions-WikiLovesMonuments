@@ -29,7 +29,6 @@ class WikiLovesMonuments {
 				'ad', // Andorra
 				'ar', // Argentina
 				'at', // Austria
-				'bd', // Bangladesh
 				'by', // Belarus
 				'be', // Belgium
 				'ca', // Canada
