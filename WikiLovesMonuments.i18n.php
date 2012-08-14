@@ -28,7 +28,7 @@ $messages['en'] = array(
 );
 
 $messages['es'] = array(
-	'wlm-extension-desc' => 'Añade información y traducciones sobre el concurso fotográfico Wiki Loves Monuments.',
+	'wlm-extension-desc' => 'Añade información y traducciones sobre el concurso fotográfico Wiki Loves Monuments',
 	'wlm-no-contest-year' => 'No hubo un concurso de Wiki Loves Monument en $1.',
 	'wlm-sidebar-portlet' => 'Otros países',
 
