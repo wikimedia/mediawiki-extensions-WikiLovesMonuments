@@ -5,7 +5,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'name' => 'WikiLovesMonuments',
 	'author' => 'Platonides',
 	'descriptionmsg' => 'wlm-extension-desc',
- 	'url' => 'https://www.mediawiki.org/wiki/Extension:Cite/Cite.php'
+	'url' => 'https://www.mediawiki.org/wiki/Extension:WikiLovesMonuments'
  );
   
 $wgAutoloadClasses['WikiLovesMonuments'] = dirname( __FILE__ ) . "/WikiLovesMonuments_body.php";
