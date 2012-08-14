@@ -179,7 +179,7 @@ class WikiLovesMonuments {
 		sort( $countries ); // Sort by country code
 		array_unshift( $countries, 'int' );
 
-		$wlmSidebar = "			<ul>\n";
+		$wlmSidebar = "			<ul>";
 		foreach ( $countries as $countryCode ) {
 			if ( in_array( $countryCode, $skipCountries ) )
 				continue;
@@ -188,10 +188,10 @@ class WikiLovesMonuments {
 			$name = $countryNames[ strtoupper( $countryCode ) ];
 
 			if ( $url && $name )
-				$wlmSidebar .= "\t\t\t\t<li>" . Html::element( 'a' , array( 'href' => $url ), $name ) . "</li>\n";
+				$wlmSidebar .= "\n\t\t\t\t" . Html::rawElement( 'li', array( 'id' => "wlm-country-$countryCode" ), Html::element( 'a' , array( 'href' => $url ), $name ) );
 
 		}
-		$wlmSidebar .= "			</ul>\n";
+		$wlmSidebar .= "\n			</ul>\n";
 
 		$bar['wlm-sidebar-portlet'] = $wlmSidebar;
 		return true;
