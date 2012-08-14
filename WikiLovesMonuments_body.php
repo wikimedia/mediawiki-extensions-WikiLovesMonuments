@@ -172,15 +172,20 @@ class WikiLovesMonuments {
 		if ( $wgWikiLovesMonumentsCountryPortlet !== true )
 			$skipCountries = (array)$wgWikiLovesMonumentsCountryPortlet;
 
-		$countries = CountryNames::getNames( $wgLang->getCode() );
+		$countryNames = CountryNames::getNames( $wgLang->getCode() );
+		$countryNames['INT'] = wfMsg( 'wlm-international-contest' );
+
+		$countries = WikiLovesMonuments::$countries[WikiLovesMonuments::activeEdition];
+		sort( $countries ); // Sort by country code
+		array_unshift( $countries, 'int' );
 
 		$wlmSidebar = "			<ul>\n";
-		foreach ( WikiLovesMonuments::$countries[WikiLovesMonuments::activeEdition] as $countryCode ) {
+		foreach ( $countries as $countryCode ) {
 			if ( in_array( $countryCode, $skipCountries ) )
 				continue;
 
 			$url = self::getCountryWebsite( $countryCode );
-			$name = $countries[ strtoupper( $countryCode ) ];
+			$name = $countryNames[ strtoupper( $countryCode ) ];
 
 			if ( $url && $name )
 				$wlmSidebar .= "\t\t\t\t<li>" . Html::element( 'a' , array( 'href' => $url ), $name ) . "</li>\n";
