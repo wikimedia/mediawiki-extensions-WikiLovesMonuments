@@ -157,4 +157,35 @@ class WikiLovesMonuments {
 
 		return false;
 	}
+
+	public static function onSkinBuildSidebar( Skin $skin, &$bar ) {
+		global $wgLang, $wgWikiLovesMonumentsCountryPortlet;
+
+		if ( !$wgWikiLovesMonumentsCountryPortlet || !class_exists( 'CountryNames' ) ) {
+			return true;
+		}
+
+		$skipCountries = array();
+		if ( $wgWikiLovesMonumentsCountryPortlet !== true )
+			$skipCountries = (array)$wgWikiLovesMonumentsCountryPortlet;
+
+		$countries = CountryNames::getNames( $wgLang->getCode() );
+
+		$wlmSidebar = "			<ul>\n";
+		foreach ( WikiLovesMonuments::$countries[WikiLovesMonuments::activeEdition] as $countryCode ) {
+			if ( in_array( $countryCode, $skipCountries ) )
+				continue;
+
+			$url = self::getCountryWebsite( $countryCode );
+			$name = $countries[ strtoupper( $countryCode ) ];
+
+			if ( $url && $name )
+				$wlmSidebar .= "\t\t\t\t<li>" . Html::element( 'a' , array( 'href' => $url ), $name ) . "</li>\n";
+
+		}
+		$wlmSidebar .= "			</ul>\n";
+
+		$bar['wlm-sidebar-portlet'] = $wlmSidebar;
+		return true;
+	}
 }
