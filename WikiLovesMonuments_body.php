@@ -1,6 +1,9 @@
 <?php
 
 class WikiLovesMonuments {
+	/* Active WLM edition, either the last/running edition or in preparation */
+	const activeEdition = 2012;
+
 	/* const */ static $countries = array(
 		2010 => array( 'nl'	),
 		
