@@ -69,6 +69,9 @@ class WikiLovesMonuments {
 	 * Web sites for the local competition of each country
 	 */
 	/*const*/ static $websites = array(
+		'int' => 'http://www.wikilovesmonuments.org/',
+		'eu' => 'http://www.wikilovesmonuments.eu/',
+
 		'ad' => 'http://www.wikilovesmonuments.cat/', // Andorra and Catalan areas WP
 		'ar' => false, // Argentina
 		'at' => 'http://wikilovesmonuments.at/', // Austria WP
