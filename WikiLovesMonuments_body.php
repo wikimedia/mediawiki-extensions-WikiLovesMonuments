@@ -136,4 +136,22 @@ class WikiLovesMonuments {
 		
 		return $parser->getFunctionLang()->formatNum( count( self::$countries[(int)$year] ) );
 	}
+
+	/**
+	 * @return mixed the url to the WLM website for that country or false if it isn't a country code
+	 */
+	public static function getCountryWebsite($countryCode) {
+		if ( isset( self::$websites[$countryCode] ) && self::$websites[$countryCode] )
+			return self::$websites[$countryCode];
+
+		if ( class_exists( 'CountryNames' ) ) {
+			$countries = CountryNames::getNames( 'en' );
+
+			// Fallback to the page in Wikimedia Commons
+			if ( isset( $countries[ strtoupper( $countryCode ) ] ) )
+				return 'https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2012_in_' . $countries[ strtoupper( $countryCode ) ];
+		}
+
+		return false;
+	}
 }
