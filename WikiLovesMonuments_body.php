@@ -113,6 +113,7 @@ class WikiLovesMonuments {
 		if ( class_exists( 'CountryNames' ) ) // Provided by cldr extension
 			$parser->setFunctionHook( 'wlm-countries', 'WikiLovesMonuments::countries' );
 		$parser->setFunctionHook( 'wlm-country-count', 'WikiLovesMonuments::countryCount' );
+		$parser->setFunctionHook( 'wlm-country-website', 'WikiLovesMonuments::countryWebsite' );
 		
 		return true;
 	}
@@ -195,5 +196,16 @@ class WikiLovesMonuments {
 
 		$bar['wlm-sidebar-portlet'] = $wlmSidebar;
 		return true;
+	}
+
+	public static function countryWebsite( $parser, $countryCode ) {
+		$url = self::getCountryWebsite( strtolower( $countryCode ) );
+
+		if ( $url === false )
+			return '<strong class="error">' .
+				wfMessage( 'wlm-no-url-bad-country', $countryCode )->inLanguage( $parser->getFunctionLang() )->plain() .
+				'</strong>';
+
+		return $url;
 	}
 }

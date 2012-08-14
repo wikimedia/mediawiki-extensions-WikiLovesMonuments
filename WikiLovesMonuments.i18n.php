@@ -11,6 +11,7 @@ $messages = array();
 $messages['en'] = array(
 	'wlm-extension-desc' => 'Adds information and messages related to the Wiki Loves Monuments photographic contest',
 	'wlm-no-contest-year' => 'There was no Wiki Loves Monument contest in $1.',
+	'wlm-no-url-bad-country' => "We couldn't obtain the website for the local compatition. $1 is not a valid country code.",
 
 	'wlm-sidebar-portlet' => 'Other countries',
 	'wlm-international-contest' => 'International',
@@ -30,12 +31,14 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Platonides
  * @author Siebrand
  */
 $messages['qqq'] = array(
 	'wlm-extension-desc' => '{{desc}}',
 	'wlm-no-contest-year' => 'Error message given when WLM parser functions get passed a parameter which is not a year in which there was (or is planned) a WLM edition. Parameters:
 * $1 is a year.',
+	'wlm-no-url-bad-country' => 'Error message given when {{#wlm-country-website: }} is given something that is not a country code.',
 	'wlm-sidebar-portlet' => 'Title of the portlet listing on the sidebar the websites for the rest of countries.',
 	'wlm-international-contest' => 'Naming of the link to the website of the international contest, shown in the portlet.',
 	'wlm-text-contact' => 'Caption for a page about contacting the (local) organization.',
@@ -86,6 +89,7 @@ $messages['de-formal'] = array(
 $messages['es'] = array(
 	'wlm-extension-desc' => 'Añade información y traducciones sobre el concurso fotográfico Wiki Loves Monuments.',
 	'wlm-no-contest-year' => 'No hubo un concurso de Wiki Loves Monument en $1.',
+	'wlm-no-url-bad-country' => "No se pudo encontrar la web del concurso local. No hay un país con código $1.",
 	'wlm-sidebar-portlet' => 'Otros países',
 	'wlm-international-contest' => 'Internacional',
 	'wlm-text-contact' => 'Contacto',
