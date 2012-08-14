@@ -2,17 +2,9 @@
 
 /**
  * Internationalization file for the 'WikiLovesMonuments' extension.
- * 
+ *
  * This file contains translations for terms related to WLM.
  */
-
-$magicWords = array();
- 
-$magicWords['en'] = array(
-   'wlm-countries' => array( 0, 'wlm-countries' ),
-   'wlm-country-count' => array( 0, 'wlm-country-count' ),
-);
-
 
 $messages = array();
 
@@ -69,3 +61,4 @@ $messages['qqq'] = array(
 	'wlm-text-sponsors' => 'Caption suitable for leading to a page about the sponsors/partners of the Wiki Loves Monuments contest.',
 	'wlm-text-uploading' => 'Text suitable for leading to a page with instructions / explaining how to upload the photos.',
 );
+
