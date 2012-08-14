@@ -81,7 +81,7 @@ class WikiLovesMonuments {
 		'dk' => false, // Denmark
 		'ee' => false, // Estonia
 		'fr' => 'http://wikilovesmonuments.fr/', // France WP
-		'de' => 'http://de.wikipedia.org/wiki/Wikipedia:Wiki_loves_monuments_2012', // Germany (redirected from http://wikilovesmonuments.de/)
+		'de' => 'http://de.wikipedia.org/wiki/Wikipedia:Wiki_Loves_Monuments_2012', // Germany (redirected from http://wikilovesmonuments.de/)
 		'hu' => 'http://www.wikilovesmonuments.hu/', // Hungary custom
 		'in' => 'http://www.wikilovesmonuments.in/', // India WP
 		'il' => false, // Israel
