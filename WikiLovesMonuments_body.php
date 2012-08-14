@@ -47,7 +47,7 @@ class WikiLovesMonuments {
 				'il', // Israel
 				'it', // Italy
 				'ke', // Kenya
-				'lb', // Liechtenstein
+				'li', // Liechtenstein
 				'lu', // Luxembourg
 				'mx', // Mexico
 				'nl', // Netherlands
