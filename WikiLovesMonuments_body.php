@@ -87,7 +87,7 @@ class WikiLovesMonuments {
 		'il' => false, // Israel
 		'it' => 'http://www.wikilovesmonuments.it/', // Italy WP
 		'ke' => false, // Kenya
-		'lb' => false, // Liechtenstein
+		'li' => false, // Liechtenstein
 		'lu' => 'http://www.wikilovesmonuments.be/', // Luxembourg MW
 		'mx' => false, // Mexico
 		'nl' => 'http://www.wikilovesmonuments.nl/', // Netherlands WP
