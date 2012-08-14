@@ -9,7 +9,7 @@
 $messages = array();
 
 $messages['en'] = array(
-	'wlm-extension-desc' => 'Adds information and messages related to the Wiki Loves Monuments photographic contest.',
+	'wlm-extension-desc' => 'Adds information and messages related to the Wiki Loves Monuments photographic contest',
 	'wlm-no-contest-year' => 'There was no Wiki Loves Monument contest in $1.',
 
 	'wlm-text-contact' => 'Contact',
