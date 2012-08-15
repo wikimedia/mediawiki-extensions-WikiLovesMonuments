@@ -11,7 +11,7 @@ $messages = array();
 $messages['en'] = array(
 	'wlm-extension-desc' => 'Adds information and messages related to the Wiki Loves Monuments photographic contest',
 	'wlm-no-contest-year' => 'There was no Wiki Loves Monument contest in $1.',
-	'wlm-no-url-bad-country' => "We couldn't obtain the website for the local compatition. $1 is not a valid country code.",
+	'wlm-no-url-bad-country' => "We couldn't obtain the website for the local competition. $1 is not a valid country code.",
 
 	'wlm-sidebar-portlet' => 'Other countries',
 	'wlm-international-contest' => 'International',
