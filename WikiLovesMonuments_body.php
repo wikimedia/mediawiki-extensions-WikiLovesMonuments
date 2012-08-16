@@ -75,7 +75,7 @@ class WikiLovesMonuments {
 		'ad' => 'http://www.wikilovesmonuments.cat/', // Andorra and Catalan areas WP
 		'ar' => 'http://wikilovesmonuments.com.ar', // Argentina WP
 		'at' => 'http://wikilovesmonuments.at/', // Austria WP
-		'by' => false, // Belarus
+		'by' => 'http://wikilovesmonuments.by/', // Belarus WP
 		'be' => 'http://www.wikilovesmonuments.be/', // Belgium MW
 		'ca' => 'http://wikimedia.ca/wlmca/', // Canada MW
 		'cl' => 'http://www.wikilovesmonuments.cl/', // Chile WP
