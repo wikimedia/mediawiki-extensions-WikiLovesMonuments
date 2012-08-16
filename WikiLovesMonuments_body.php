@@ -109,15 +109,6 @@ class WikiLovesMonuments {
 		'us' => 'http://wikilovesmonuments.us/', // United States WP
 	);
 
-	static function registerParserFunctions( $parser ) {
-		if ( class_exists( 'CountryNames' ) ) // Provided by cldr extension
-			$parser->setFunctionHook( 'wlm-countries', 'WikiLovesMonuments::countries' );
-		$parser->setFunctionHook( 'wlm-country-count', 'WikiLovesMonuments::countryCount' );
-		$parser->setFunctionHook( 'wlm-country-website', 'WikiLovesMonuments::countryWebsite' );
-		
-		return true;
-	}
-	
 	public static function countries( $parser, $year ) {
 		if ( !isset( self::$countries[(int)$year] ) ) {
 			return '<strong class="error">' .

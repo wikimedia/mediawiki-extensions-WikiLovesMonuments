@@ -12,8 +12,8 @@ $wgAutoloadClasses['WikiLovesMonuments'] = dirname( __FILE__ ) . "/WikiLovesMonu
 $wgExtensionMessagesFiles['WikiLovesMonuments'] = dirname( __FILE__ ) . "/WikiLovesMonuments.i18n.php";
 $wgExtensionMessagesFiles['WikiLovesMonumentsMagic'] = dirname( __FILE__ ) . "/WikiLovesMonuments.i18n.magic.php";
 
-$wgHooks['ParserFirstCallInit'][] = 'WikiLovesMonuments::registerParserFunctions';
-$wgHooks['SkinBuildSidebar'][] = 'WikiLovesMonuments::onSkinBuildSidebar';
+$wgHooks['ParserFirstCallInit'][] = 'wfWikiLovesMonumentsRegisterParserFunctions';
+$wgExtensionFunctions[] = 'wfWikiLovesMonumentsInit';
 
 /**
  * Show the sidebar portlet with the countries participating in the active
@@ -24,3 +24,22 @@ $wgHooks['SkinBuildSidebar'][] = 'WikiLovesMonuments::onSkinBuildSidebar';
  *  - Country code or array of country codes -> Show all the countries but these (presumable because those would be self-links)
  */
 $wgWikiLovesMonumentsCountryPortlet = false;
+
+
+
+
+function wfWikiLovesMonumentsRegisterParserFunctions( $parser ) {
+	if ( class_exists( 'CountryNames' ) ) // Provided by cldr extension
+		$parser->setFunctionHook( 'wlm-countries', 'WikiLovesMonuments::countries' );
+	$parser->setFunctionHook( 'wlm-country-count', 'WikiLovesMonuments::countryCount' );
+	$parser->setFunctionHook( 'wlm-country-website', 'WikiLovesMonuments::countryWebsite' );
+
+	return true;
+}
+
+function wfWikiLovesMonumentsInit() {
+	global $wgHooks, $wgWikiLovesMonumentsCountryPortlet;
+
+	if ( $wgWikiLovesMonumentsCountryPortlet )
+		$wgHooks['SkinBuildSidebar'][] = 'WikiLovesMonuments::onSkinBuildSidebar';
+}
