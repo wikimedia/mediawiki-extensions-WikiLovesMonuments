@@ -75,6 +75,27 @@ $messages['ar'] = array(
 	'wlm-text-uploading' => 'يرفع',
 );
 
+/** Catalan (Català)
+ * @author Elisardojm
+ * @author Platonides
+ */
+$messages['ca'] = array(
+	'wlm-sidebar-portlet' => 'Preguntes freqüents',
+	'wlm-international-contest' => 'Internacional',
+	'wlm-text-contact' => 'Contacte',
+	'wlm-text-contest' => 'Concurs',
+	'wlm-text-donate' => 'Donar',
+	'wlm-text-faq' => 'Preguntes freqüents',
+	'wlm-text-jury' => 'Jurat',
+	'wlm-text-monuments' => 'Monuments',
+	'wlm-text-news' => 'Novetats',
+	'wlm-text-participate' => 'Participa!',
+	'wlm-text-prizes' => 'Premis',
+	'wlm-text-rules' => 'Reglament',
+	'wlm-text-sponsors' => 'Contacte',
+	'wlm-text-uploading' => 'Carregar foto',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
@@ -204,8 +225,8 @@ $messages['frp'] = array(
 );
 
 /** Galician (Galego)
+ * @author Elisardojm
  * @author Platonides
- * @author Raystorm
  */
 $messages['gl'] = array(
 	'wlm-sidebar-portlet' => 'Outros países',
