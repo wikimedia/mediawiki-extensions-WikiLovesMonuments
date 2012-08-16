@@ -73,7 +73,7 @@ class WikiLovesMonuments {
 		'eu' => 'http://www.wikilovesmonuments.eu/',
 
 		'ad' => 'http://www.wikilovesmonuments.cat/', // Andorra and Catalan areas WP
-		'ar' => false, // Argentina
+		'ar' => 'http://wikilovesmonuments.com.ar', // Argentina WP
 		'at' => 'http://wikilovesmonuments.at/', // Austria WP
 		'by' => false, // Belarus
 		'be' => 'http://www.wikilovesmonuments.be/', // Belgium MW
@@ -92,7 +92,7 @@ class WikiLovesMonuments {
 		'ke' => false, // Kenya
 		'li' => false, // Liechtenstein
 		'lu' => 'http://www.wikilovesmonuments.be/', // Luxembourg MW
-		'mx' => false, // Mexico
+		'mx' => 'http://wikilovesmonuments.mx/', // Mexico WP
 		'nl' => 'http://www.wikilovesmonuments.nl/', // Netherlands WP
 		'pa' => 'http://www.wlmpanama.org.pa/', // Panama WP
 		'ph' => 'http://www.wikilovesmonuments.ph/', // Philippines WP
