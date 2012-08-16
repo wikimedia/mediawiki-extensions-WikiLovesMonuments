@@ -410,10 +410,10 @@ if (!this.JSON2) {
 */
 var
 	// asynchronous tracker (or proxy)
-	_paq = _paq || [],
+	_paq = _paq || [];
 
 	// Piwik singleton and namespace
-	Piwik =	Piwik || (function () {
+	window.Piwik =	window.Piwik || (function () {
 		"use strict";
 
 		/************************************************************
