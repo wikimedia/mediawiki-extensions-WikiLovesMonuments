@@ -203,6 +203,27 @@ $messages['frp'] = array(
 	'wlm-text-uploading' => 'Tèlèchargement',
 );
 
+/** Galician (Galego)
+ * @author Platonides
+ * @author Raystorm
+ */
+$messages['gl'] = array(
+	'wlm-sidebar-portlet' => 'Outros países',
+	'wlm-international-contest' => 'Internacional',
+	'wlm-text-contact' => 'Contacto',
+	'wlm-text-contest' => 'Concurso',
+	'wlm-text-donate' => 'Doar',
+	'wlm-text-faq' => 'Preguntas frecuentes',
+	'wlm-text-jury' => 'Xurado',
+	'wlm-text-monuments' => 'Monumentos',
+	'wlm-text-news' => 'Novidades',
+	'wlm-text-participate' => 'Participa!',
+	'wlm-text-prizes' => 'Premios',
+	'wlm-text-rules' => 'Regulamento',
+	'wlm-text-sponsors' => 'Patrocinadores',
+	'wlm-text-uploading' => 'Cargar fotos',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
