@@ -75,7 +75,7 @@ $messages['ar'] = array(
 	'wlm-text-uploading' => 'يرفع',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Elisardojm
  * @author Platonides
  */
@@ -224,7 +224,7 @@ $messages['frp'] = array(
 	'wlm-text-uploading' => 'Tèlèchargement',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Elisardojm
  * @author Platonides
  */
@@ -251,6 +251,7 @@ $messages['gl'] = array(
 $messages['hsb'] = array(
 	'wlm-extension-desc' => 'Staja informacije a powěsće za fotowubědźowanje Wiki Loves Monuments k dispoziciji',
 	'wlm-no-contest-year' => 'W lěće $1 njeje žane wubědźowanje Wiki Loves Monuments było.',
+	'wlm-no-url-bad-country' => 'Njemóžachmy websydło za lokalne wubědźowanje wotwołać. $1 płaćiwy krajny kod njeje.',
 	'wlm-sidebar-portlet' => 'Druhe kraje',
 	'wlm-international-contest' => 'Mjezynarodny',
 	'wlm-text-contact' => 'Kontakt',
@@ -265,6 +266,15 @@ $messages['hsb'] = array(
 	'wlm-text-rules' => 'Prawidła',
 	'wlm-text-sponsors' => 'Sponsorojo',
 	'wlm-text-uploading' => 'Nahraće',
+);
+
+/** Italian (italiano)
+ * @author F. Cosoleto
+ */
+$messages['it'] = array(
+	'wlm-sidebar-portlet' => 'Altri paesi',
+	'wlm-text-donate' => 'Fai una donazione',
+	'wlm-text-faq' => 'FAQ',
 );
 
 /** Macedonian (македонски)
@@ -357,5 +367,13 @@ $messages['uk'] = array(
 	'wlm-text-rules' => 'Правила',
 	'wlm-text-sponsors' => 'Спонсори',
 	'wlm-text-uploading' => 'Завантаження',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['vi'] = array(
+	'wlm-text-contact' => 'Liên lạc',
+	'wlm-text-news' => 'Tin tức',
 );
 
