@@ -81,7 +81,7 @@ class WikiLovesMonuments {
 		'cl' => 'http://www.wikilovesmonuments.cl/', // Chile WP
 		'co' => 'http://www.wikilovesmonuments.co/', // Colombia WP
 		'cz' => 'http://www.wikilovesmonuments.cz/', // Czech Republic WP
-		'dk' => false, // Denmark
+		'dk' => 'http://da.wikipedia.org/wiki/Wikipedia:Wiki_Loves_Monuments_2012', // Denmark (redirected from http://www.wikilovesmonuments.dk/)
 		'ee' => 'http://wikilovesmonuments.ee/', // Estonia
 		'fr' => 'http://wikilovesmonuments.fr/', // France WP
 		'de' => 'http://de.wikipedia.org/wiki/Wikipedia:Wiki_Loves_Monuments_2012', // Germany (redirected from http://wikilovesmonuments.de/)
