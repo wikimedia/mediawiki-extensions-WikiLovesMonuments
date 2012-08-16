@@ -12,8 +12,15 @@ $wgAutoloadClasses['WikiLovesMonuments'] = dirname( __FILE__ ) . "/WikiLovesMonu
 $wgExtensionMessagesFiles['WikiLovesMonuments'] = dirname( __FILE__ ) . "/WikiLovesMonuments.i18n.php";
 $wgExtensionMessagesFiles['WikiLovesMonumentsMagic'] = dirname( __FILE__ ) . "/WikiLovesMonuments.i18n.magic.php";
 
+$wgResourceModules['ext.WikiLovesMonuments.piwik'] = array(
+	'scripts' => 'piwik.js',
+	'localBasePath' => dirname( __FILE__ ),
+	'remoteExtPath' => 'WikiLovesMonuments',
+);
+
 $wgHooks['ParserFirstCallInit'][] = 'wfWikiLovesMonumentsRegisterParserFunctions';
 $wgExtensionFunctions[] = 'wfWikiLovesMonumentsInit';
+
 
 /**
  * Show the sidebar portlet with the countries participating in the active
@@ -25,6 +32,12 @@ $wgExtensionFunctions[] = 'wfWikiLovesMonumentsInit';
  */
 $wgWikiLovesMonumentsCountryPortlet = false;
 
+
+/**
+ * Set to the piwik id of your country to automatically
+ * track your pages at http://stats.wikilovesmonuments.org/
+ */
+$wgWikiLovesMonumentsCentralisedStatsId = false;
 
 
 
@@ -39,7 +52,28 @@ function wfWikiLovesMonumentsRegisterParserFunctions( $parser ) {
 
 function wfWikiLovesMonumentsInit() {
 	global $wgHooks, $wgWikiLovesMonumentsCountryPortlet;
+	global $wgOut, $wgWikiLovesMonumentsCentralisedStatsId;
 
 	if ( $wgWikiLovesMonumentsCountryPortlet )
 		$wgHooks['SkinBuildSidebar'][] = 'WikiLovesMonuments::onSkinBuildSidebar';
+
+	if ( $wgWikiLovesMonumentsCentralisedStatsId !== false ) {
+		$piwikServer = '//stats.wikilovesmonuments.org';
+
+		$wgOut->addModules( 'ext.WikiLovesMonuments.piwik' );
+		$wgOut->addScript( Html::inlineScript( <<<JS
+if(window.mw){ mw.loader.using( 'ext.WikiLovesMonuments.piwik', function() {
+	try {
+		var piwikTracker = window.Piwik.getTracker('$piwikServer/piwik.php', $wgWikiLovesMonumentsCentralisedStatsId);
+		piwikTracker.trackPageView();
+		piwikTracker.enableLinkTracking();
+	} catch( err ) {}
+} ); }
+
+JS
+		) . "<noscript>" .
+				"<p><img src=\"$piwikServer/piwik.php?idsite=$wgWikiLovesMonumentsCentralisedStatsId\" style=\"border: 0\" alt=\"\" /></p>" .
+			"</noscript>"
+		);
+	}
 }
