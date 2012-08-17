@@ -75,6 +75,29 @@ $messages['ar'] = array(
 	'wlm-text-uploading' => 'يرفع',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'wlm-extension-desc' => 'Amiesta información y mensaxes rellacionaos col concursu fotográficu Wiki Loves Monuments',
+	'wlm-no-contest-year' => 'Nun hubo concursu Wiki Loves Monument en $1.',
+	'wlm-no-url-bad-country' => 'Nun pudimos alcontrar el sitiu web de la competición llocal. $1 nun ye un códigu de país válidu.',
+	'wlm-sidebar-portlet' => 'Otros paises',
+	'wlm-international-contest' => 'Internacional',
+	'wlm-text-contact' => 'Contactu',
+	'wlm-text-contest' => 'Concursu',
+	'wlm-text-donate' => 'Donativos',
+	'wlm-text-faq' => 'EMF (entrugues más frecuentes)',
+	'wlm-text-jury' => 'Xuráu',
+	'wlm-text-monuments' => 'Monumentos',
+	'wlm-text-news' => 'Noticies',
+	'wlm-text-participate' => '¡Participa!',
+	'wlm-text-prizes' => 'Premios',
+	'wlm-text-rules' => 'Regles',
+	'wlm-text-sponsors' => 'Patrocinadores',
+	'wlm-text-uploading' => 'Cargar fotos',
+);
+
 /** Catalan (català)
  * @author Elisardojm
  * @author Platonides
@@ -133,6 +156,7 @@ $messages['de-formal'] = array(
 $messages['dsb'] = array(
 	'wlm-extension-desc' => 'Staja informacije a powěsći za fotowuběźowanje Wiki Loves Monuments k dispoziciji',
 	'wlm-no-contest-year' => 'W lěśe $1 njejo žedno wuběźowanje Wiki Loves Monuments było.',
+	'wlm-no-url-bad-country' => 'Njejsmy mógli websedło za lokalne wuběźowanje wótwołaś. $1 njejo płaśiwy krajny kod.',
 	'wlm-sidebar-portlet' => 'Druge kraje',
 	'wlm-international-contest' => 'Mjazynarodny',
 	'wlm-text-contact' => 'Kontakt',
@@ -245,6 +269,22 @@ $messages['gl'] = array(
 	'wlm-text-uploading' => 'Cargar fotos',
 );
 
+/** Hebrew (עברית)
+ * @author ערן
+ */
+$messages['he'] = array(
+	'wlm-sidebar-portlet' => 'מדינות אחרות',
+	'wlm-text-contact' => 'יצירת קשר',
+	'wlm-text-contest' => 'תחרות',
+	'wlm-text-donate' => 'תרומה',
+	'wlm-text-faq' => 'שאלות נפוצות',
+	'wlm-text-monuments' => 'אתרי מורשת',
+	'wlm-text-news' => 'חדשות',
+	'wlm-text-participate' => 'להשתתף!',
+	'wlm-text-prizes' => 'פרסים',
+	'wlm-text-rules' => 'חוקים',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
@@ -275,6 +315,12 @@ $messages['it'] = array(
 	'wlm-sidebar-portlet' => 'Altri paesi',
 	'wlm-text-donate' => 'Fai una donazione',
 	'wlm-text-faq' => 'FAQ',
+	'wlm-text-jury' => 'Giuria',
+	'wlm-text-news' => 'Notizie',
+	'wlm-text-participate' => 'Partecipa!',
+	'wlm-text-prizes' => 'Premi',
+	'wlm-text-rules' => 'Regole',
+	'wlm-text-sponsors' => 'Sponsor',
 );
 
 /** Macedonian (македонски)
@@ -325,17 +371,18 @@ $messages['nl'] = array(
 
 /** Tagalog (Tagalog)
  * @author AnakngAraw
+ * @author Sky Harbor
  */
 $messages['tl'] = array(
-	'wlm-extension-desc' => 'Nagdaragdag ng kabatiran at mga mensaheng may kaugnayan sa paligsahan na panglitrato ng Maibigin ang Wiki sa mga Bantayog',
-	'wlm-no-contest-year' => 'Walang paligsahan ng Mapagmahal ang Wiki sa mga Bantayog sa loob ng $1.',
-	'wlm-no-url-bad-country' => 'Hindi namin makamtan ang pook na pangsangkasaputan para sa katutubong katunggali. Ang $1 ay hindi isang katanggap-tanggap na kodigo ng bansa.',
+	'wlm-extension-desc' => 'Nagdaragdag ng kabatiran at mga mensaheng may kaugnayan sa paligsahang panglitrato na Wiki Loves Monuments',
+	'wlm-no-contest-year' => 'Walang paligsahang Wiki Loves Monument sa loob ng $1.',
+	'wlm-no-url-bad-country' => 'Hindi namin makamtan ang websayt para sa lokal na paligsahan. Ang $1 ay hindi isang katanggap-tanggap na kodigo ng bansa.',
 	'wlm-sidebar-portlet' => 'Iba pang mga bansa',
 	'wlm-international-contest' => 'Pandaigdig',
 	'wlm-text-contact' => 'Kaugnayan',
 	'wlm-text-contest' => 'Paligsahan',
-	'wlm-text-donate' => 'Mag-abuloy',
-	'wlm-text-faq' => 'Mga malimit itanong',
+	'wlm-text-donate' => 'Magkaloob',
+	'wlm-text-faq' => 'Mga karaniwang itinatanong',
 	'wlm-text-jury' => 'Inampalan',
 	'wlm-text-monuments' => 'Mga bantayog',
 	'wlm-text-news' => 'Balita',
