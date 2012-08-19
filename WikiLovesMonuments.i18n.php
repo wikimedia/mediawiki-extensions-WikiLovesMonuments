@@ -196,6 +196,29 @@ $messages['es'] = array(
 	'wlm-text-uploading' => 'Subir fotos',
 );
 
+/** Estonian (eesti)
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'wlm-extension-desc' => 'Lisab fotovõistlusega Wiki Loves Monuments seotud teabe ja sõnumid.',
+	'wlm-no-contest-year' => 'Aastal $1 polnud võistlust Wiki Loves Monuments.',
+	'wlm-no-url-bad-country' => 'Kohaliku võistluse veebilehte ei õnnestunud hankida. $1 pole kehtiv maakood.',
+	'wlm-sidebar-portlet' => 'Teised maad',
+	'wlm-international-contest' => 'Rahvusvaheline',
+	'wlm-text-contact' => 'Kontakt',
+	'wlm-text-contest' => 'Võistlus',
+	'wlm-text-donate' => 'Annetamine',
+	'wlm-text-faq' => 'KKK',
+	'wlm-text-jury' => 'Žürii',
+	'wlm-text-monuments' => 'Mälestised',
+	'wlm-text-news' => 'Uudised',
+	'wlm-text-participate' => 'Võta osa!',
+	'wlm-text-prizes' => 'Auhinnad',
+	'wlm-text-rules' => 'Reeglid',
+	'wlm-text-sponsors' => 'Sponsorid',
+	'wlm-text-uploading' => 'Üleslaadimine',
+);
+
 /** Basque (euskara)
  * @author පසිඳු කාවින්ද
  */
@@ -251,8 +274,12 @@ $messages['frp'] = array(
 /** Galician (galego)
  * @author Elisardojm
  * @author Platonides
+ * @author Toliño
  */
 $messages['gl'] = array(
+	'wlm-extension-desc' => 'Engade información e mensaxes en relación ao concurso fotográfico Wiki Loves Monuments',
+	'wlm-no-contest-year' => 'Non houbo concurso de Wiki Loves Monuments ningún no ano $1.',
+	'wlm-no-url-bad-country' => 'Non puidemos obter a páxina web da competición local. "$1" non é un código de país válido.',
 	'wlm-sidebar-portlet' => 'Outros países',
 	'wlm-international-contest' => 'Internacional',
 	'wlm-text-contact' => 'Contacto',
@@ -312,15 +339,22 @@ $messages['hsb'] = array(
  * @author F. Cosoleto
  */
 $messages['it'] = array(
+	'wlm-extension-desc' => 'Aggiunge informazioni e messaggi riguardanti il concorso fotografico Wiki Loves Monuments',
+	'wlm-no-contest-year' => "Non c'è stato nessun concorso di Wiki Loves Monuments nel $1.",
+	'wlm-no-url-bad-country' => 'Non è stato trovare il sito web per la competizione locale, $1 non è un valido codice nazionale.',
 	'wlm-sidebar-portlet' => 'Altri paesi',
+	'wlm-text-contact' => 'Contatti',
+	'wlm-text-contest' => 'Concorso',
 	'wlm-text-donate' => 'Fai una donazione',
 	'wlm-text-faq' => 'FAQ',
 	'wlm-text-jury' => 'Giuria',
+	'wlm-text-monuments' => 'Monumenti',
 	'wlm-text-news' => 'Notizie',
 	'wlm-text-participate' => 'Partecipa!',
 	'wlm-text-prizes' => 'Premi',
 	'wlm-text-rules' => 'Regole',
 	'wlm-text-sponsors' => 'Sponsor',
+	'wlm-text-uploading' => 'Carica',
 );
 
 /** Macedonian (македонски)
@@ -367,6 +401,29 @@ $messages['nl'] = array(
 	'wlm-text-rules' => 'Spelregels',
 	'wlm-text-sponsors' => 'Sponsoren',
 	'wlm-text-uploading' => 'Uploaden',
+);
+
+/** Russian (русский)
+ * @author Kalan
+ */
+$messages['ru'] = array(
+	'wlm-extension-desc' => 'Добавляет информацию и сообщения, связанные с фотоконкурсом «Вики любит памятники»',
+	'wlm-no-contest-year' => 'Конкурс «Вики любит памятники» не проводился в $1.',
+	'wlm-no-url-bad-country' => 'Не удалось определить сайт соревнования в данной местности. $1 — неверный код страны.',
+	'wlm-sidebar-portlet' => 'Другие страны',
+	'wlm-international-contest' => 'Международный',
+	'wlm-text-contact' => 'Контактные данные',
+	'wlm-text-contest' => 'Конкурс',
+	'wlm-text-donate' => 'Пожертвования',
+	'wlm-text-faq' => 'Вопросы и ответы',
+	'wlm-text-jury' => 'Жюри',
+	'wlm-text-monuments' => 'Памятники',
+	'wlm-text-news' => 'Новости',
+	'wlm-text-participate' => 'Участвовать!',
+	'wlm-text-prizes' => 'Призы',
+	'wlm-text-rules' => 'Правила',
+	'wlm-text-sponsors' => 'Спонсоры',
+	'wlm-text-uploading' => 'Как загружать фото',
 );
 
 /** Tagalog (Tagalog)
