@@ -98,6 +98,29 @@ $messages['ast'] = array(
 	'wlm-text-uploading' => 'Cargar fotos',
 );
 
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+ * @author Wizardist
+ */
+$messages['be-tarask'] = array(
+	'wlm-extension-desc' => 'Дадае інфармацыю і паведамленьні, датычныя конкурсу «Вікі любіць славутасьці»',
+	'wlm-no-contest-year' => 'Конкурс «Вікі любіць славутасьці» ў $1 годзе не праводзіўся.',
+	'wlm-no-url-bad-country' => 'У нас няма адрасу вэб-сайта мясцовага конкурсу. $1 — няслушны код краіны.',
+	'wlm-sidebar-portlet' => 'Іншыя краіны',
+	'wlm-international-contest' => 'Міжнародны',
+	'wlm-text-contact' => 'Кантакты',
+	'wlm-text-contest' => 'Конкурс',
+	'wlm-text-donate' => 'Ахвяраваньні',
+	'wlm-text-faq' => 'Пытаньні і адказы',
+	'wlm-text-jury' => 'Журы',
+	'wlm-text-monuments' => 'Славутасьці',
+	'wlm-text-news' => 'Навіны',
+	'wlm-text-participate' => 'Удзельнічаць!',
+	'wlm-text-prizes' => 'Прызы',
+	'wlm-text-rules' => 'Правілы',
+	'wlm-text-sponsors' => 'Спонсары',
+	'wlm-text-uploading' => 'Загрузка здымкаў',
+);
+
 /** Catalan (català)
  * @author Elisardojm
  * @author Platonides
@@ -115,7 +138,7 @@ $messages['ca'] = array(
 	'wlm-text-participate' => 'Participa!',
 	'wlm-text-prizes' => 'Premis',
 	'wlm-text-rules' => 'Reglament',
-	'wlm-text-sponsors' => 'Contacte',
+	'wlm-text-sponsors' => 'Patrocinadors',
 	'wlm-text-uploading' => 'Carregar foto',
 );
 
@@ -297,19 +320,27 @@ $messages['gl'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Amire80
  * @author ערן
  */
 $messages['he'] = array(
+	'wlm-extension-desc' => 'הוספת מידע והודעות בנושא תחרות ויקי אוהבת אתרי מורשת',
+	'wlm-no-contest-year' => 'אין תחרות ויקי אוהבת אתרי מורשת ב־$1',
+	'wlm-no-url-bad-country' => 'לא הצלחנו להשיג את האתר של התחרות המקומית. $1 הוא לא קוד מדינה תקין.',
 	'wlm-sidebar-portlet' => 'מדינות אחרות',
+	'wlm-international-contest' => 'בין־לאומית',
 	'wlm-text-contact' => 'יצירת קשר',
 	'wlm-text-contest' => 'תחרות',
 	'wlm-text-donate' => 'תרומה',
 	'wlm-text-faq' => 'שאלות נפוצות',
+	'wlm-text-jury' => 'חבר השופטים',
 	'wlm-text-monuments' => 'אתרי מורשת',
 	'wlm-text-news' => 'חדשות',
 	'wlm-text-participate' => 'להשתתף!',
 	'wlm-text-prizes' => 'פרסים',
 	'wlm-text-rules' => 'חוקים',
+	'wlm-text-sponsors' => 'נותני חסות',
+	'wlm-text-uploading' => 'העלאה',
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -336,6 +367,7 @@ $messages['hsb'] = array(
 );
 
 /** Italian (italiano)
+ * @author Darth Kule
  * @author F. Cosoleto
  */
 $messages['it'] = array(
@@ -343,6 +375,7 @@ $messages['it'] = array(
 	'wlm-no-contest-year' => "Non c'è stato nessun concorso di Wiki Loves Monuments nel $1.",
 	'wlm-no-url-bad-country' => 'Non è stato trovare il sito web per la competizione locale, $1 non è un valido codice nazionale.',
 	'wlm-sidebar-portlet' => 'Altri paesi',
+	'wlm-international-contest' => 'Internazionale',
 	'wlm-text-contact' => 'Contatti',
 	'wlm-text-contest' => 'Concorso',
 	'wlm-text-donate' => 'Fai una donazione',
@@ -355,6 +388,16 @@ $messages['it'] = array(
 	'wlm-text-rules' => 'Regole',
 	'wlm-text-sponsors' => 'Sponsor',
 	'wlm-text-uploading' => 'Carica',
+);
+
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'wlm-sidebar-portlet' => 'その他の国',
+	'wlm-text-donate' => '寄付',
+	'wlm-text-news' => 'ニュース',
+	'wlm-text-rules' => 'ルール',
 );
 
 /** Macedonian (македонски)
