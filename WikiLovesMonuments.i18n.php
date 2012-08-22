@@ -423,6 +423,29 @@ $messages['mk'] = array(
 	'wlm-text-uploading' => 'Подигање',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'wlm-extension-desc' => 'Menambahkan maklumat dan pesanan yang berkaitan dengan peraduan gambar Wiki Loves Monuments',
+	'wlm-no-contest-year' => 'Tiada peraduan Wiki Loves Monuments pada tahun $1.',
+	'wlm-no-url-bad-country' => 'Kami tidak dapat memperoleh tapak web bagi peraduan setempat kerana $1 bukan kod negara yang sah.',
+	'wlm-sidebar-portlet' => 'Negara lain',
+	'wlm-international-contest' => 'Antarabangsa',
+	'wlm-text-contact' => 'Hubungi',
+	'wlm-text-contest' => 'Peraduan',
+	'wlm-text-donate' => 'Derma',
+	'wlm-text-faq' => 'Soalan Lazim',
+	'wlm-text-jury' => 'Pengadil',
+	'wlm-text-monuments' => 'Monumen',
+	'wlm-text-news' => 'Berita',
+	'wlm-text-participate' => 'Sertailah!',
+	'wlm-text-prizes' => 'Hadiah',
+	'wlm-text-rules' => 'Peraturan',
+	'wlm-text-sponsors' => 'Penaja',
+	'wlm-text-uploading' => 'Muat naik',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
