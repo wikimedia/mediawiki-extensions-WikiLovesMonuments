@@ -395,9 +395,15 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'wlm-sidebar-portlet' => 'その他の国',
+	'wlm-text-contact' => '連絡先',
+	'wlm-text-contest' => 'コンテスト',
 	'wlm-text-donate' => '寄付',
+	'wlm-text-faq' => 'よくある質問と回答',
+	'wlm-text-monuments' => 'モニュメント',
 	'wlm-text-news' => 'ニュース',
 	'wlm-text-rules' => 'ルール',
+	'wlm-text-sponsors' => 'スポンサー',
+	'wlm-text-uploading' => 'アップロード中',
 );
 
 /** Macedonian (македонски)
