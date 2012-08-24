@@ -100,7 +100,7 @@ class WikiLovesMonuments {
 		'pt' => 'http://www.wikilovesmonuments.org.pt/', // Portugal custom+MW
 		'ro' => 'http://wikilovesmonuments.ro/', // Romania WP
 		'ru' => 'http://wikilovesmonuments.ru/', // Russia WP
-		'rs' => 'http://wlm.wikimedia.rs/', // Serbia placeholder
+		'rs' => 'http://wlm.wikimedia.rs/pocetna.php', // Serbia custom
 		'za' => 'http://wikilovesmonuments.co.za/', // South Africa MW
 		'es' => 'http://www.wikilm.es/', // Spain MW
 		'se' => 'http://wikilovesmonuments.se/', // Sweden WP
