@@ -42,6 +42,7 @@ class WikiLovesMonuments {
 				'ee', // Estonia
 				'fr', // France
 				'de', // Germany
+				'gh', // Ghana
 				'hu', // Hungary
 				'in', // India
 				'il', // Israel
@@ -51,11 +52,13 @@ class WikiLovesMonuments {
 				'lu', // Luxembourg
 				'mx', // Mexico
 				'nl', // Netherlands
+				'no', // Norway
 				'pa', // Panama
 				'ph', // Philippines
 				'pl', // Poland
 				'ro', // Romania
 				'ru', // Russia
+				'rs', // Serbia
 				'za', // South Africa
 				'es', // Spain
 				'se', // Sweden
@@ -84,6 +87,7 @@ class WikiLovesMonuments {
 		'dk' => 'http://da.wikipedia.org/wiki/Wikipedia:Wiki_Loves_Monuments_2012', // Denmark (redirected from http://www.wikilovesmonuments.dk/)
 		'ee' => 'http://wikilovesmonuments.ee/', // Estonia
 		'fr' => 'http://wikilovesmonuments.fr/', // France WP
+		'gh' => false; // Ghana
 		'de' => 'http://de.wikipedia.org/wiki/Wikipedia:Wiki_Loves_Monuments_2012', // Germany (redirected from http://wikilovesmonuments.de/)
 		'hu' => 'http://www.wikilovesmonuments.hu/', // Hungary custom
 		'in' => 'http://www.wikilovesmonuments.in/', // India WP
@@ -94,6 +98,7 @@ class WikiLovesMonuments {
 		'lu' => 'http://www.wikilovesmonuments.be/', // Luxembourg MW
 		'mx' => 'http://wikilovesmonuments.mx/', // Mexico WP
 		'nl' => 'http://www.wikilovesmonuments.nl/', // Netherlands WP
+		'no' => false, // Norway
 		'pa' => 'http://www.wlmpanama.org.pa/', // Panama WP
 		'ph' => 'http://www.wikilovesmonuments.ph/', // Philippines WP
 		'pl' => 'http://wikizabytki.pl/', // Poland WP
