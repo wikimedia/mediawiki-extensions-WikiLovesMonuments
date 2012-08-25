@@ -142,6 +142,29 @@ $messages['ca'] = array(
 	'wlm-text-uploading' => 'Carregar foto',
 );
 
+/** Czech (česky)
+ * @author Limojoe
+ */
+$messages['cs'] = array(
+	'wlm-extension-desc' => 'Přidává informace a zprávy související s fotografickou soutěží Wiki miluje památky',
+	'wlm-no-contest-year' => 'V  roce $1  neprobíhala soutěž Wiki miluje památky.',
+	'wlm-no-url-bad-country' => 'Nepodařilo se najít soutěžní web pro danou lokalitu.  $1  není platný kód země.',
+	'wlm-sidebar-portlet' => 'Ostatní země',
+	'wlm-international-contest' => 'Mezinárodní',
+	'wlm-text-contact' => 'Kontakt',
+	'wlm-text-contest' => 'Soutěž',
+	'wlm-text-donate' => 'Podpořte nás',
+	'wlm-text-faq' => 'Často kladené otázky',
+	'wlm-text-jury' => 'Porota',
+	'wlm-text-monuments' => 'Památky',
+	'wlm-text-news' => 'Novinky',
+	'wlm-text-participate' => 'Zapojte se!',
+	'wlm-text-prizes' => 'Ceny',
+	'wlm-text-rules' => 'Pravidla',
+	'wlm-text-sponsors' => 'Sponzoři',
+	'wlm-text-uploading' => 'Uploadování',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
@@ -394,6 +417,8 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
+	'wlm-extension-desc' => 'ウィキラブモニュメント写真コンテスト関連の情報とテンプレートを追加する',
+	'wlm-no-contest-year' => '$1 年は、ウィキラブモニュメントのコンテストはありません。',
 	'wlm-sidebar-portlet' => 'その他の国',
 	'wlm-text-contact' => '連絡先',
 	'wlm-text-contest' => 'コンテスト',
@@ -401,6 +426,7 @@ $messages['ja'] = array(
 	'wlm-text-faq' => 'よくある質問と回答',
 	'wlm-text-monuments' => 'モニュメント',
 	'wlm-text-news' => 'ニュース',
+	'wlm-text-participate' => '参加してください!',
 	'wlm-text-rules' => 'ルール',
 	'wlm-text-sponsors' => 'スポンサー',
 	'wlm-text-uploading' => 'アップロード中',
