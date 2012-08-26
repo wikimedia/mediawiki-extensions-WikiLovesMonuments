@@ -55,6 +55,29 @@ $messages['qqq'] = array(
 	'wlm-text-uploading' => 'Text suitable for leading to a page with instructions / explaining how to upload the photos.',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'wlm-extension-desc' => 'Voeg inligting en boodskappe oor Wiki Lief Monumente se fotowedstryd by',
+	'wlm-no-contest-year' => "Daar was nie 'n Wiki Lief Monumente-wedstryd in $1 nie.",
+	'wlm-no-url-bad-country' => "Ons kon nie die plaaslike kompetisie se webtuiste vind nie. $1 is nie 'n geldige landkode nie.",
+	'wlm-sidebar-portlet' => 'Ander lande',
+	'wlm-international-contest' => 'Internasionaal',
+	'wlm-text-contact' => 'Kontak',
+	'wlm-text-contest' => 'Wedstryd',
+	'wlm-text-donate' => 'Skenk',
+	'wlm-text-faq' => 'Algemene vrae',
+	'wlm-text-jury' => 'Jurie',
+	'wlm-text-monuments' => 'Monumente',
+	'wlm-text-news' => 'Nuus',
+	'wlm-text-participate' => 'Neem deel!',
+	'wlm-text-prizes' => 'Pryse',
+	'wlm-text-rules' => 'Reëls',
+	'wlm-text-sponsors' => 'Borge',
+	'wlm-text-uploading' => 'Laai op',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  */
