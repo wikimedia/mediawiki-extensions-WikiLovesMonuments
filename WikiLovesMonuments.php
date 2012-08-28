@@ -43,7 +43,7 @@ $wgWikiLovesMonumentsCentralisedStatsId = false;
 
 function wfWikiLovesMonumentsRegisterParserFunctions( $parser ) {
 	if ( class_exists( 'CountryNames' ) ) // Provided by cldr extension
-		$parser->setFunctionHook( 'wlm-countries', 'WikiLovesMonuments::countries' );
+		$parser->setFunctionHook( 'wlm-countries', 'WikiLovesMonuments::countriesParserFunction' );
 	$parser->setFunctionHook( 'wlm-country-count', 'WikiLovesMonuments::countryCount' );
 	$parser->setFunctionHook( 'wlm-country-website', 'WikiLovesMonuments::countryWebsite' );
 

@@ -114,20 +114,36 @@ class WikiLovesMonuments {
 		'us' => 'http://wikilovesmonuments.us/', // United States WP
 	);
 
-	public static function countries( $parser, $year ) {
-		if ( !isset( self::$countries[(int)$year] ) ) {
+	public static function countriesParserFunction( $parser, $year ) {
+		$countries = self::countries( (int)$year, $parser->getFunctionLang()->getCode(), 'numeric' );
+
+		if ( $countries === false ) {
 			return '<strong class="error">' .
-				wfMessage( 'wlm-no-contest-year', $year )->inLanguage( $parser->getFunctionLang() )->plain() .
-			 	'</strong>';
-		}
-		$countries = CountryNames::getNames( $parser->getFunctionLang()->getCode() );
-		
-		$wlmCountries = array();
-		foreach ( self::$countries[(int)$year] as $wlmCountryCode ) {
-			$wlmCountries[] = $countries[ strtoupper( $wlmCountryCode ) ];
+					wfMessage( 'wlm-no-contest-year', $year )->inLanguage( $parser->getFunctionLang() )->plain() .
+					'</strong>';
 		}
 		
 		return $parser->getFunctionLang()->listToText( $wlmCountries );
+	}
+
+	public static function countries( $year, $langCode = false, $keys = 'codes' ) {
+		if ( !isset( self::$countries[$year] ) )
+			return false;
+
+		if ( $langCode === false )
+			return self::$countries[$year];
+
+		$countries = CountryNames::getNames( $langCode );
+
+		$wlmCountries = array();
+		foreach ( self::$countries[(int)$year] as $wlmCountryCode ) {
+			if ( $keys == 'codes' )
+				$wlmCountries[$wlmCountryCode] = $countries[ strtoupper( $wlmCountryCode ) ];
+			else
+				$wlmCountries[] = $countries[ strtoupper( $wlmCountryCode ) ];
+		}
+
+		return $wlmCountries;
 	}
 	
 	public static function countryCount( $parser, $year ) {
