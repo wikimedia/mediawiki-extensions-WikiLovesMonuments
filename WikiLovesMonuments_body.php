@@ -123,7 +123,7 @@ class WikiLovesMonuments {
 					'</strong>';
 		}
 		
-		return $parser->getFunctionLang()->listToText( $wlmCountries );
+		return $parser->getFunctionLang()->listToText( $countries );
 	}
 
 	public static function countries( $year, $langCode = false, $keys = 'codes' ) {
@@ -136,7 +136,7 @@ class WikiLovesMonuments {
 		$countries = CountryNames::getNames( $langCode );
 
 		$wlmCountries = array();
-		foreach ( self::$countries[(int)$year] as $wlmCountryCode ) {
+		foreach ( self::$countries[$year] as $wlmCountryCode ) {
 			if ( $keys == 'codes' )
 				$wlmCountries[$wlmCountryCode] = $countries[ strtoupper( $wlmCountryCode ) ];
 			else
