@@ -91,7 +91,7 @@ class WikiLovesMonuments {
 		'de' => 'http://de.wikipedia.org/wiki/Wikipedia:Wiki_Loves_Monuments_2012', // Germany (redirected from http://wikilovesmonuments.de/)
 		'hu' => 'http://www.wikilovesmonuments.hu/', // Hungary custom
 		'in' => 'http://www.wikilovesmonuments.in/', // India WP
-		'il' => false, // Israel
+		'il' => 'http://www.wlm.org.il/', // Israel WP
 		'it' => 'http://www.wikilovesmonuments.it/', // Italy WP
 		'ke' => false, // Kenya
 		'li' => false, // Liechtenstein
