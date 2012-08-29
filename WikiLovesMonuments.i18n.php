@@ -147,6 +147,7 @@ $messages['be-tarask'] = array(
 /** Catalan (català)
  * @author Elisardojm
  * @author Platonides
+ * @author Toniher
  */
 $messages['ca'] = array(
 	'wlm-sidebar-portlet' => 'Preguntes freqüents',
@@ -162,7 +163,7 @@ $messages['ca'] = array(
 	'wlm-text-prizes' => 'Premis',
 	'wlm-text-rules' => 'Reglament',
 	'wlm-text-sponsors' => 'Patrocinadors',
-	'wlm-text-uploading' => 'Carregar foto',
+	'wlm-text-uploading' => "S'està carregant",
 );
 
 /** Czech (česky)
