@@ -43,7 +43,6 @@ class WikiLovesMonuments {
 				'fr', // France
 				'de', // Germany
 				'gh', // Ghana
-				'hu', // Hungary
 				'in', // India
 				'il', // Israel
 				'it', // Italy
