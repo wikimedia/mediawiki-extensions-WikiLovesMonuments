@@ -40,6 +40,12 @@ $wgWikiLovesMonumentsCountryPortlet = false;
 $wgWikiLovesMonumentsCentralisedStatsId = false;
 
 
+/**
+ * Support adding some custom javascript to Piwik.
+ * For instance, "piwikTracker.setDoNotTrack(true);" to not
+ * track visits if the user has DNT header set.
+ */
+$wgPiwikCustomJS = "";
 
 function wfWikiLovesMonumentsRegisterParserFunctions( $parser ) {
 	if ( class_exists( 'CountryNames' ) ) // Provided by cldr extension
@@ -51,7 +57,7 @@ function wfWikiLovesMonumentsRegisterParserFunctions( $parser ) {
 }
 
 function wfWikiLovesMonumentsInit() {
-	global $wgHooks, $wgWikiLovesMonumentsCountryPortlet;
+	global $wgHooks, $wgWikiLovesMonumentsCountryPortlet, $wgPiwikCustomJS;
 	global $wgOut, $wgWikiLovesMonumentsCentralisedStatsId;
 
 	if ( $wgWikiLovesMonumentsCountryPortlet )
@@ -65,6 +71,7 @@ function wfWikiLovesMonumentsInit() {
 if(window.mw){ mw.loader.using( 'ext.WikiLovesMonuments.piwik', function() {
 	try {
 		var piwikTracker = window.Piwik.getTracker('$piwikServer/piwik.php', $wgWikiLovesMonumentsCentralisedStatsId);
+		$wgPiwikCustomJS
 		piwikTracker.trackPageView();
 		piwikTracker.enableLinkTracking();
 	} catch( err ) {}
