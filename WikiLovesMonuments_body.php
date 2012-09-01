@@ -215,4 +215,33 @@ class WikiLovesMonuments {
 
 		return $url;
 	}
+
+	/**
+	 * Provide the category for the images of this year.
+	 * Precondition: $countryCode is the country code of a participating country,
+	 * or the special value '*' for all the images from that year.
+	 */
+	public static function getCountryCategory( $year, $countryCode = '*' ) {
+		if ( !class_exists( 'CountryNames' ) ) {
+			throw new MWException( 'CLDR extension not loaded' );
+		}
+
+		if ( $countryCode == '*' )
+			return "Images_from_Wiki_Loves_Monuments_$year";
+
+		$countries = CountryNames::getNames( 'en' );
+
+		if ( !isset( $countries[ strtoupper( $countryCode ) ] ) )
+			return false;
+
+		$country = $countries[ strtoupper( $countryCode ) ];
+
+		// There's an article in front of the country name:
+		static $theCountries = array( 'cz', 'nl', 'ph', 'us' );
+
+		if ( in_array( $countryCode, $theCountries ) )
+			$country = "the_$country";
+
+		return "Images_from_Wiki_Loves_Monuments_$year_in_$country";
+	}
 }
