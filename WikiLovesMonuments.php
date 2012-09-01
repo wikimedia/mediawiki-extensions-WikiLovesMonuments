@@ -47,9 +47,14 @@ $wgWikiLovesMonumentsCentralisedStatsId = false;
  */
 $wgPiwikCustomJS = "";
 
+/**
+ * @param $parser Parser
+ * @return bool
+ */
 function wfWikiLovesMonumentsRegisterParserFunctions( $parser ) {
-	if ( class_exists( 'CountryNames' ) ) // Provided by cldr extension
+	if ( class_exists( 'CountryNames' ) ) {// Provided by cldr extension
 		$parser->setFunctionHook( 'wlm-countries', 'WikiLovesMonuments::countriesParserFunction' );
+	}
 	$parser->setFunctionHook( 'wlm-country-count', 'WikiLovesMonuments::countryCount' );
 	$parser->setFunctionHook( 'wlm-country-website', 'WikiLovesMonuments::countryWebsite' );
 
@@ -60,8 +65,9 @@ function wfWikiLovesMonumentsInit() {
 	global $wgHooks, $wgWikiLovesMonumentsCountryPortlet, $wgPiwikCustomJS;
 	global $wgOut, $wgWikiLovesMonumentsCentralisedStatsId;
 
-	if ( $wgWikiLovesMonumentsCountryPortlet )
+	if ( $wgWikiLovesMonumentsCountryPortlet ) {
 		$wgHooks['SkinBuildSidebar'][] = 'WikiLovesMonuments::onSkinBuildSidebar';
+	}
 
 	if ( $wgWikiLovesMonumentsCentralisedStatsId !== false ) {
 		$piwikServer = '//stats.wikilovesmonuments.org';

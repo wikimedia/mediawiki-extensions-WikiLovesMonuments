@@ -6,7 +6,7 @@ class WikiLovesMonuments {
 
 	/* const */ static $countries = array(
 		2010 => array( 'nl'	),
-		
+
 		2011 => array( // https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2011
 				'ad', // Andorra
 				'at', // Austria
@@ -27,7 +27,7 @@ class WikiLovesMonuments {
 				'se', // Sweden
 				'ch', // Switzerland (1 July - 30 September)
 			),
-		
+
 		2012 => array( // https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2012/Participating_countries
 				'ad', // Andorra
 				'ar', // Argentina
@@ -66,7 +66,7 @@ class WikiLovesMonuments {
 				'us', // United States
 			)
 	);
-	
+
 	/**
 	 * Web sites for the local competition of each country
 	 */
@@ -113,6 +113,11 @@ class WikiLovesMonuments {
 		'us' => 'http://wikilovesmonuments.us/', // United States WP
 	);
 
+	/**
+	 * @param $parser Parser
+	 * @param $year
+	 * @return string
+	 */
 	public static function countriesParserFunction( $parser, $year ) {
 		$countries = self::countries( (int)$year, $parser->getFunctionLang()->getCode(), 'numeric' );
 
@@ -125,12 +130,20 @@ class WikiLovesMonuments {
 		return $parser->getFunctionLang()->listToText( $countries );
 	}
 
+	/**
+	 * @param $year
+	 * @param $langCode bool|string
+	 * @param $keys string
+	 * @return array|bool
+	 */
 	public static function countries( $year, $langCode = false, $keys = 'codes' ) {
-		if ( !isset( self::$countries[$year] ) )
+		if ( !isset( self::$countries[$year] ) ) {
 			return false;
+		}
 
-		if ( $langCode === false )
+		if ( $langCode === false ) {
 			return self::$countries[$year];
+		}
 
 		$countries = CountryNames::getNames( $langCode );
 
@@ -144,7 +157,12 @@ class WikiLovesMonuments {
 
 		return $wlmCountries;
 	}
-	
+
+	/**
+	 * @param $parser Parser
+	 * @param $year
+	 * @return string
+	 */
 	public static function countryCount( $parser, $year ) {
 		if ( !isset( self::$countries[(int)$year] ) ) {
 			return '<strong class="error">' .
@@ -156,9 +174,10 @@ class WikiLovesMonuments {
 	}
 
 	/**
-	 * @return mixed the url to the WLM website for that country or false if it isn't a country code
+	 * @param $countryCode string
+	 * @return bool|string mixed the url to the WLM website for that country or false if it isn't a country code
 	 */
-	public static function getCountryWebsite($countryCode) {
+	public static function getCountryWebsite( $countryCode ) {
 		if ( isset( self::$websites[$countryCode] ) && self::$websites[$countryCode] )
 			return self::$websites[$countryCode];
 
@@ -173,6 +192,11 @@ class WikiLovesMonuments {
 		return false;
 	}
 
+	/**
+	 * @param $skin Skin
+	 * @param $bar array
+	 * @return bool
+	 */
 	public static function onSkinBuildSidebar( Skin $skin, &$bar ) {
 		global $wgLang, $wgWikiLovesMonumentsCountryPortlet;
 
@@ -181,8 +205,9 @@ class WikiLovesMonuments {
 		}
 
 		$skipCountries = array();
-		if ( $wgWikiLovesMonumentsCountryPortlet !== true )
+		if ( $wgWikiLovesMonumentsCountryPortlet !== true ) {
 			$skipCountries = (array)$wgWikiLovesMonumentsCountryPortlet;
+		}
 
 		$countries = self::countries( WikiLovesMonuments::activeEdition, $wgLang->getCode() );
 		asort( $countries ); // Sort by local name
@@ -190,13 +215,21 @@ class WikiLovesMonuments {
 
 		$wlmSidebar = "			<ul>";
 		foreach ( $countries as $countryCode => $name ) {
-			if ( in_array( $countryCode, $skipCountries ) )
+			if ( in_array( $countryCode, $skipCountries ) ) {
 				continue;
+			}
 
 			$url = self::getCountryWebsite( $countryCode );
 
-			if ( $url && $name )
-				$wlmSidebar .= "\n\t\t\t\t" . Html::rawElement( 'li', array( 'id' => "wlm-country-$countryCode" ), Html::element( 'a' , array( 'href' => $url ), $name ) );
+			if ( $url && $name ) {
+				$wlmSidebar .= "\n\t\t\t\t" .
+					Html::rawElement( 'li',
+						array( 'id' => "wlm-country-$countryCode" ),
+						Html::element( 'a' , array( 'href' => $url ),
+							$name
+						)
+					);
+			}
 
 		}
 		$wlmSidebar .= "\n			</ul>\n";
@@ -205,13 +238,19 @@ class WikiLovesMonuments {
 		return true;
 	}
 
+	/**
+	 * @param $parser Parser
+	 * @param $countryCode string
+	 * @return string
+	 */
 	public static function countryWebsite( $parser, $countryCode ) {
 		$url = self::getCountryWebsite( strtolower( $countryCode ) );
 
-		if ( $url === false )
+		if ( $url === false ) {
 			return '<strong class="error">' .
 				wfMessage( 'wlm-no-url-bad-country', $countryCode )->inLanguage( $parser->getFunctionLang() )->plain() .
 				'</strong>';
+		}
 
 		return $url;
 	}
