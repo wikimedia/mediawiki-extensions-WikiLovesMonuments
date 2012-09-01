@@ -242,6 +242,6 @@ class WikiLovesMonuments {
 		if ( in_array( $countryCode, $theCountries ) )
 			$country = "the_$country";
 
-		return "Images_from_Wiki_Loves_Monuments_$year_in_$country";
+		return "Images_from_Wiki_Loves_Monuments_{$year}_in_$country";
 	}
 }
