@@ -548,6 +548,29 @@ $messages['ru'] = array(
 	'wlm-text-uploading' => 'Как загружать фото',
 );
 
+/** Swedish (svenska)
+ * @author Ainali
+ */
+$messages['sv'] = array(
+	'wlm-extension-desc' => 'Lägger till information och meddelanden relaterade till Wiki Loves Monuments fototävling',
+	'wlm-no-contest-year' => 'Det fanns ingen Wiki Loves Monument tävling för  $1 .',
+	'wlm-no-url-bad-country' => 'Vi kunde inte hämta webbplatsen för den lokala tävlingen.  $1  är inte en giltig landskod.',
+	'wlm-sidebar-portlet' => 'Andra länder',
+	'wlm-international-contest' => 'Internationell',
+	'wlm-text-contact' => 'Kontakt',
+	'wlm-text-contest' => 'Tävling',
+	'wlm-text-donate' => 'Donera',
+	'wlm-text-faq' => 'Vanliga frågor',
+	'wlm-text-jury' => 'Jury',
+	'wlm-text-monuments' => 'Monument',
+	'wlm-text-news' => 'Nyheter',
+	'wlm-text-participate' => 'Delta!',
+	'wlm-text-prizes' => 'Priser',
+	'wlm-text-rules' => 'Regler',
+	'wlm-text-sponsors' => 'Sponsorer',
+	'wlm-text-uploading' => 'Laddar upp',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  * @author Sky Harbor
