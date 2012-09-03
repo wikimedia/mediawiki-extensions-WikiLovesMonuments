@@ -167,6 +167,7 @@ $messages['ca'] = array(
 );
 
 /** Czech (česky)
+ * @author Chmee2
  * @author Limojoe
  */
 $messages['cs'] = array(
@@ -186,7 +187,7 @@ $messages['cs'] = array(
 	'wlm-text-prizes' => 'Ceny',
 	'wlm-text-rules' => 'Pravidla',
 	'wlm-text-sponsors' => 'Sponzoři',
-	'wlm-text-uploading' => 'Uploadování',
+	'wlm-text-uploading' => 'Načítání',
 );
 
 /** German (Deutsch)
