@@ -394,7 +394,7 @@ class WikiLovesMonuments {
 		$countryCode = trim( $countryCode );
 		if ( ! in_array( $countryCode, self::$countries[$year] ) ) {
 			return '<strong class="error">' .
-				wfMessage( 'wlm-country-not-participating-year', $countryCode, $year )->inLanguage( $parser->getFunctionLang() )->plain() .
+				wfMessage( 'wlm-country-not-participating-year', self::countryName( $countryCode, $parser->getFunctionLang()->getCode(), $countryCode), $year )->inLanguage( $parser->getFunctionLang() )->plain() .
 				'</strong>';
 		}
 
@@ -409,5 +409,25 @@ class WikiLovesMonuments {
 			return $frame->getArgument( 'after' );
 
 		return $frame->getArgument( 2 );
+	}
+
+	/**
+	 * Converts a country code to the country name
+	 * @param $countryCode string Country code
+	 * @param $langCode string Target language to convert to
+	 * @param $default mixed Value to return if the country code is not found (ie. it wasn't a country code)
+	 */
+	static function countryName( $countryCode, $langCode, $default = false ) {
+		if ( !class_exists( 'CountryNames' ) ) {
+			throw new MWException( 'CLDR extension not loaded' );
+		}
+
+		$countryCode = strtoupper( $countryCode );
+		$countries = CountryNames::getNames( $langCode );
+
+		if ( isset( $countries[ $countryCode ] ) )
+			return $countries[ $countryCode ];
+
+		return $default;
 	}
 }
