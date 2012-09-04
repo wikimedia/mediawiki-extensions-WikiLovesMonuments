@@ -114,6 +114,33 @@ class WikiLovesMonuments {
 	);
 
 	/**
+	 * Dates of beginning and end of the competitions
+	 */
+	/*const*/ static private $dates = array(
+		2010 => array( 'default' => array( 'from' => '20100831220000', 'to' => '20100930215959' ) ),
+		2011 => array( 'default' => array( 'from' => '20110831220000', 'to' => '20110930215959' ) ),
+		2012 => array(
+			'default' => array( 'from' => '20120831220000', 'to' => '20120930215959' ),
+			'ph' => array( 'from' => '20120831160000', 'to' => '20120930155959' ),
+			'in' => array( 'from' => '20120831183000', 'to' => '20120930185959' ),
+			'ru' => array( 'from' => '20120831200000', 'to' => '20120930195959' ),
+			'by' => array( 'from' => '20120831210000', 'to' => '20120930205959' ),
+			'ke' => array( 'from' => '20120831210000', 'to' => '20120930205959' ),
+			'ua' => array( 'from' => '20120831210000', 'to' => '20120930205959' ),
+			'es' => array( 'to' => '20120930225959' ),
+			'gh' => array( 'from' => '20120901000000', 'to' => '20120930235959' ),
+			'ca' => array( 'from' => '20120901023000', 'to' => '20121001065959' ),
+			'ar' => array( 'from' => '20120901030000', 'to' => '20121001025959' ),
+			'cl' => array( 'from' => '20120901040000', 'to' => '20121001025959' ),
+			'co' => array( 'from' => '20120901050000', 'to' => '20121001045959' ),
+			'mx' => array( 'from' => '20120901050000', 'to' => '20121001065959' ),
+			'pa' => array( 'from' => '20120901050000', 'to' => '20121001045959' ),
+			'us' => array( 'from' => '20120901100100', 'to' => '20121001100059' ),
+			'il' => array( 'from' => '20120913210000', 'to' => '20121014205959' ),
+		),
+	);
+
+	/**
 	 * @param $parser Parser
 	 * @param $year
 	 * @return string
@@ -282,5 +309,60 @@ class WikiLovesMonuments {
 			$country = "the_$country";
 
 		return "Images_from_Wiki_Loves_Monuments_{$year}_in_$country";
+	}
+
+	/**
+	 * Provide the dates when the competition begins and/or ends for each country.
+	 *
+	 * @param $year int           WLM edition
+	 * @param $countryCode mixed  country code for that country, true for an array
+	 * of all countries or * for the union of all countries dates.
+	 * @param $dates string 'begin' or 'end'
+	 * @return mixed   MediaWiki timestamp, array of timestamps or array of arrays of timestamps
+	 */
+	public static function getCountryDate( $year, $countryCode, $dates = 'both' ) {
+		if ( $countryCode === true ) {
+			$countryDates = array();
+
+			foreach ( self::countries( $year ) as $c ) {
+				$countryDates[$c] = self::getCountryDate( $year, $c, $dates );
+			}
+
+			return $countryDates;
+		}
+
+		if ( $dates == 'both' ) {
+			return array( self::getCountryDate( $year, $countryCode, 'begin' ), self::getCountryDate( $year, $countryCode, 'end' ) );
+		}
+
+		if ( $countryCode === '*' ) {
+			static $begin, $end = null;
+			if  ( is_null( $end ) ) {
+				$begin = self::$dates[$year]['default']['from'];
+				$end = self::$dates[$year]['default']['to'];
+				foreach ( self::$dates[$year] as $entry ) {
+					if ( isset( $entry['from'] ) )
+						$begin = min( $begin, $entry['from'] );
+					if ( isset( $entry['to'] ) )
+						$end = max( $end, $entry['to'] );
+				}
+			}
+			if ( $dates == 'begin' )
+				return $begin;
+			if ( $dates == 'end' )
+				return $end;
+			return array( $begin, $end );
+		}
+
+		switch ( $dates ) {
+			case 'begin':
+				return isset( self::$dates[$year][$countryCode]['from'] ) ? self::$dates[$year][$countryCode]['from'] : self::$dates[$year]['default']['from'];
+
+			case 'end':
+				return isset( self::$dates[$year][$countryCode]['to'] ) ? self::$dates[$year][$countryCode]['to'] : self::$dates[$year]['default']['to'];
+
+			default:
+				throw new MWException( 'Bad $dates passed to WikiLovesMonuments::getCountryDate()' );
+		}
 	}
 }
