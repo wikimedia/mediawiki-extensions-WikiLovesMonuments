@@ -365,4 +365,49 @@ class WikiLovesMonuments {
 				throw new MWException( 'Bad $dates passed to WikiLovesMonuments::getCountryDate()' );
 		}
 	}
+
+	/**
+	 * Provides parserfunction {{#wlm-is-running: year|countrycode|show if yes|before=show if before|after=show if ended|test=fakedate}}
+	 * Only the first two parameters are mandatory.
+	 */
+	static function wlmIsRunning($parser, $frame, $args) {
+		// As it's pre-expanded, we can't pass the year to newChild()
+		$year = trim( $frame->expand( array_shift( $args ) ) );
+
+		if ( !isset( self::$countries[(int)$year] ) ) {
+			return '<strong class="error">' .
+				wfMessage( 'wlm-no-contest-year', $year )->inLanguage( $parser->getFunctionLang() )->plain() .
+				'</strong>';
+		}
+
+		$year = (int)$year;
+		$frame = $frame->newChild( $args );
+
+		$countryCode = $frame->getArgument( 1 );
+
+		if ( $countryCode == false ) {
+			return '<strong class="error">' .
+				wfMessage( 'wlm-country-not-given' )->inLanguage( $parser->getFunctionLang() )->plain() .
+				'</strong>';
+		}
+
+		$countryCode = trim( $countryCode );
+		if ( ! in_array( $countryCode, self::$countries[$year] ) ) {
+			return '<strong class="error">' .
+				wfMessage( 'wlm-country-not-participating-year', $countryCode, $year )->inLanguage( $parser->getFunctionLang() )->plain() .
+				'</strong>';
+		}
+
+		list( $begin, $end ) = self::getCountryDate( $year, $countryCode );
+
+		$testDate = wfTimestamp( TS_MW, $frame->getArgument( 'test' ) );
+
+		if ( $testDate < $begin )
+			return $frame->getArgument( 'before' );
+
+		if ( $testDate > $end )
+			return $frame->getArgument( 'after' );
+
+		return $frame->getArgument( 2 );
+	}
 }

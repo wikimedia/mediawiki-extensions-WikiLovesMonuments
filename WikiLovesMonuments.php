@@ -57,6 +57,7 @@ function wfWikiLovesMonumentsRegisterParserFunctions( $parser ) {
 	}
 	$parser->setFunctionHook( 'wlm-country-count', 'WikiLovesMonuments::countryCount' );
 	$parser->setFunctionHook( 'wlm-country-website', 'WikiLovesMonuments::countryWebsite' );
+	$parser->setFunctionHook( 'wlm-is-running', 'WikiLovesMonuments::wlmIsRunning', SFH_OBJECT_ARGS );
 
 	return true;
 }

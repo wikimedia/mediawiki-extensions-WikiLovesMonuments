@@ -12,6 +12,8 @@ $messages['en'] = array(
 	'wlm-extension-desc' => 'Adds information and messages related to the Wiki Loves Monuments photographic contest',
 	'wlm-no-contest-year' => 'There was no Wiki Loves Monument contest in $1.',
 	'wlm-no-url-bad-country' => "We couldn't obtain the website for the local competition. $1 is not a valid country code.",
+	'wlm-country-not-given' => "You need to provide a country code.",
+	"wlm-country-not-participating-year" => "«$1» not participating in Wiki Loves Monuments $2",
 
 	'wlm-sidebar-portlet' => 'Other countries',
 	'wlm-international-contest' => 'International',
@@ -39,6 +41,18 @@ $messages['qqq'] = array(
 	'wlm-no-contest-year' => 'Error message given when WLM parser functions get passed a parameter which is not a year in which there was (or is planned) a WLM edition. Parameters:
 * $1 is a year.',
 	'wlm-no-url-bad-country' => 'Error message given when {{#wlm-country-website: }} is given something that is not a country code.',
+	'wlm-country-not-given' => "Error message given when {{#wlm-is-running: }} is not given a country code.",
+	'wlm-country-not-participating-year' => "Error message given when the country code given does not match the WLM edition.
+It is recommended to use a neutral verb time when possible. Note that this could happen for:
+* ''country'' didn't participate in Wiki Loves Monuments last
+* ''country'' is not participating in Wiki Loves Monuments this year
+* ''country'' is not scheduled to participate in Wiki Loves Monuments next year
+
+However, you don't need to prepare for really off year values, since {{msg|wlm-no-contest-year}} will fire before this if there's no data about such competition.
+
+Parameters:
+* $1 is the country
+* $2 is the year",
 	'wlm-sidebar-portlet' => 'Title of the portlet listing on the sidebar the websites for the rest of countries.',
 	'wlm-international-contest' => 'Naming of the link to the website of the international contest, shown in the portlet.',
 	'wlm-text-contact' => 'Caption for a page about contacting the (local) organization.',
