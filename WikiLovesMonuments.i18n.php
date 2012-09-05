@@ -41,7 +41,7 @@ $messages['qqq'] = array(
 	'wlm-no-contest-year' => 'Error message given when WLM parser functions get passed a parameter which is not a year in which there was (or is planned) a WLM edition. Parameters:
 * $1 is a year.',
 	'wlm-no-url-bad-country' => 'Error message given when {{#wlm-country-website: }} is given something that is not a country code.',
-	'wlm-country-not-given' => "Error message given when {{#wlm-is-running: }} is not given a country code.",
+	'wlm-country-not-given' => 'Error message given when {{#wlm-is-running: }} is not given a country code.',
 	'wlm-country-not-participating-year' => "Error message given when the country code given does not match the WLM edition.
 It is recommended to use a neutral verb time when possible. Note that this could happen for:
 * ''country'' didn't participate in Wiki Loves Monuments last
@@ -213,7 +213,7 @@ $messages['de'] = array(
 	'wlm-no-contest-year' => 'Im Jahr $1 gab es keinen Fotowettbewerb „Wiki Loves Monuments“.',
 	'wlm-no-url-bad-country' => 'Wir konnten die Website für den lokalen Wettbewerb nicht abrufen. $1 ist kein gültiger Ländercode.',
 	'wlm-country-not-given' => 'Du musst einen Ländercode angeben.',
-	'wlm-country-not-participating-year' => '„$1“ nimmt nicht am Fotowettbewerb „Wiki Loves Monuments“ teil $2',
+	'wlm-country-not-participating-year' => '„$1“ nimmt nicht am Fotowettbewerb „Wiki Loves Monuments“ des Jahres $2 teil.',
 	'wlm-sidebar-portlet' => 'Andere Staaten',
 	'wlm-international-contest' => 'International',
 	'wlm-text-contact' => 'Kontakt',
@@ -244,6 +244,8 @@ $messages['dsb'] = array(
 	'wlm-extension-desc' => 'Staja informacije a powěsći za fotowuběźowanje Wiki Loves Monuments k dispoziciji',
 	'wlm-no-contest-year' => 'W lěśe $1 njejo žedno wuběźowanje Wiki Loves Monuments było.',
 	'wlm-no-url-bad-country' => 'Njejsmy mógli websedło za lokalne wuběźowanje wótwołaś. $1 njejo płaśiwy krajny kod.',
+	'wlm-country-not-given' => 'Musyš krajny kod pódaś.',
+	'wlm-country-not-participating-year' => '"$1" njewobźělujo se na Wiki Loves Monuments $2',
 	'wlm-sidebar-portlet' => 'Druge kraje',
 	'wlm-international-contest' => 'Mjazynarodny',
 	'wlm-text-contact' => 'Kontakt',
@@ -261,12 +263,15 @@ $messages['dsb'] = array(
 );
 
 /** Spanish (español)
+ * @author Armando-Martin
  * @author Platonides
  */
 $messages['es'] = array(
 	'wlm-extension-desc' => 'Añade información y traducciones sobre el concurso fotográfico Wiki Loves Monuments',
 	'wlm-no-contest-year' => 'No hubo un concurso de Wiki Loves Monument en $1.',
 	'wlm-no-url-bad-country' => 'No se pudo encontrar la web del concurso local. No hay un país con código $1.',
+	'wlm-country-not-given' => 'Debes proporcionar un código de país.',
+	'wlm-country-not-participating-year' => '«$1» no participa en Wiki Loves Monuments $2',
 	'wlm-sidebar-portlet' => 'Otros países',
 	'wlm-international-contest' => 'Internacional',
 	'wlm-text-contact' => 'Contacto',
@@ -317,11 +322,13 @@ $messages['eu'] = array(
 
 /** French (français)
  * @author Erkethan
+ * @author Tititou36
  */
 $messages['fr'] = array(
 	'wlm-extension-desc' => 'Ajoute des informations et messages liés au concours photographique Wiki Loves Monuments',
 	'wlm-no-contest-year' => "Il n'y n'avait aucun concours Wiki Loves Monument à  $1 .",
 	'wlm-no-url-bad-country' => "Nous ne pouvons pas afficher le site Web.  $1 n'est pas un code de pays valide.",
+	'wlm-country-not-given' => 'Vous devez fournir un code de pays.',
 	'wlm-sidebar-portlet' => 'Autres pays',
 	'wlm-international-contest' => 'International',
 	'wlm-text-contact' => 'Nous contacter',
@@ -367,6 +374,8 @@ $messages['gl'] = array(
 	'wlm-extension-desc' => 'Engade información e mensaxes en relación ao concurso fotográfico Wiki Loves Monuments',
 	'wlm-no-contest-year' => 'Non houbo concurso de Wiki Loves Monuments ningún no ano $1.',
 	'wlm-no-url-bad-country' => 'Non puidemos obter a páxina web da competición local. "$1" non é un código de país válido.',
+	'wlm-country-not-given' => 'Cómpre achegar un código de país.',
+	'wlm-country-not-participating-year' => '"$1" non participou no Wiki Loves Monuments do ano $2',
 	'wlm-sidebar-portlet' => 'Outros países',
 	'wlm-international-contest' => 'Internacional',
 	'wlm-text-contact' => 'Contacto',
@@ -414,6 +423,8 @@ $messages['hsb'] = array(
 	'wlm-extension-desc' => 'Staja informacije a powěsće za fotowubědźowanje Wiki Loves Monuments k dispoziciji',
 	'wlm-no-contest-year' => 'W lěće $1 njeje žane wubědźowanje Wiki Loves Monuments było.',
 	'wlm-no-url-bad-country' => 'Njemóžachmy websydło za lokalne wubědźowanje wotwołać. $1 płaćiwy krajny kod njeje.',
+	'wlm-country-not-given' => 'Dyrbiš krajny kod podać.',
+	'wlm-country-not-participating-year' => '"$1" njewobdźěla so na Wiki Loves Monuments $2',
 	'wlm-sidebar-portlet' => 'Druhe kraje',
 	'wlm-international-contest' => 'Mjezynarodny',
 	'wlm-text-contact' => 'Kontakt',
@@ -431,6 +442,7 @@ $messages['hsb'] = array(
 );
 
 /** Italian (italiano)
+ * @author Beta16
  * @author Darth Kule
  * @author F. Cosoleto
  */
@@ -438,6 +450,8 @@ $messages['it'] = array(
 	'wlm-extension-desc' => 'Aggiunge informazioni e messaggi riguardanti il concorso fotografico Wiki Loves Monuments',
 	'wlm-no-contest-year' => "Non c'è stato nessun concorso di Wiki Loves Monuments nel $1.",
 	'wlm-no-url-bad-country' => 'Non è stato trovare il sito web per la competizione locale, $1 non è un valido codice nazionale.',
+	'wlm-country-not-given' => 'Devi fornire il codice di un paese.',
+	'wlm-country-not-participating-year' => '«$1» non partecipa a Wiki Loves Monuments $2',
 	'wlm-sidebar-portlet' => 'Altri paesi',
 	'wlm-international-contest' => 'Internazionale',
 	'wlm-text-contact' => 'Contatti',
@@ -460,6 +474,8 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'wlm-extension-desc' => 'ウィキラブモニュメント写真コンテスト関連の情報とテンプレートを追加する',
 	'wlm-no-contest-year' => '$1 年は、ウィキラブモニュメントのコンテストはありません。',
+	'wlm-country-not-given' => '国コードを入力する必要があります。',
+	'wlm-country-not-participating-year' => '「$1」はウィキラブモニュメント $2 に参加していません',
 	'wlm-sidebar-portlet' => 'その他の国',
 	'wlm-text-contact' => '連絡先',
 	'wlm-text-contest' => 'コンテスト',
@@ -480,6 +496,8 @@ $messages['mk'] = array(
 	'wlm-extension-desc' => 'Додава информации и пораки во врска со фотоконкурсот „Вики ги сака спомениците“',
 	'wlm-no-contest-year' => 'Во $1 г. не се одржа конкурс.',
 	'wlm-no-url-bad-country' => 'Не можев да го добијам мрежното место за локалниот конкурс. $1 не претставува важечки код.',
+	'wlm-country-not-given' => 'Ќе треба да укажете код за земја.',
+	'wlm-country-not-participating-year' => '«$1» не учествува на „Вики ги сака спомениците $2“',
 	'wlm-sidebar-portlet' => 'Други земји',
 	'wlm-international-contest' => 'Меѓународен',
 	'wlm-text-contact' => 'Контакт',
@@ -591,11 +609,14 @@ $messages['sv'] = array(
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  * @author Sky Harbor
+ * @author TheSleepyhollow02
  */
 $messages['tl'] = array(
 	'wlm-extension-desc' => 'Nagdaragdag ng kabatiran at mga mensaheng may kaugnayan sa paligsahang panglitrato na Wiki Loves Monuments',
 	'wlm-no-contest-year' => 'Walang paligsahang Wiki Loves Monument sa loob ng $1.',
 	'wlm-no-url-bad-country' => 'Hindi namin makamtan ang websayt para sa lokal na paligsahan. Ang $1 ay hindi isang katanggap-tanggap na kodigo ng bansa.',
+	'wlm-country-not-given' => 'Kailangan mong magbigay ng kodiko ng bansa.',
+	'wlm-country-not-participating-year' => 'Ang «$1» ay hindi nakilahok sa Mapagmahal ang Wiki sa mga Bantayog noong $2',
 	'wlm-sidebar-portlet' => 'Iba pang mga bansa',
 	'wlm-international-contest' => 'Pandaigdig',
 	'wlm-text-contact' => 'Kaugnayan',
