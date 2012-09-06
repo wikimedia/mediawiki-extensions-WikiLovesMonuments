@@ -183,11 +183,12 @@ $messages['ca'] = array(
 /** Czech (česky)
  * @author Chmee2
  * @author Limojoe
+ * @author Mormegil
  */
 $messages['cs'] = array(
 	'wlm-extension-desc' => 'Přidává informace a zprávy související s fotografickou soutěží Wiki miluje památky',
-	'wlm-no-contest-year' => 'V  roce $1  neprobíhala soutěž Wiki miluje památky.',
-	'wlm-no-url-bad-country' => 'Nepodařilo se najít soutěžní web pro danou lokalitu.  $1  není platný kód země.',
+	'wlm-no-contest-year' => 'V roce $1 soutěž Wiki miluje památky neprobíhala.',
+	'wlm-no-url-bad-country' => 'Nepodařilo se najít soutěžní web pro danou lokalitu. $1 není platný kód země.',
 	'wlm-sidebar-portlet' => 'Ostatní země',
 	'wlm-international-contest' => 'Mezinárodní',
 	'wlm-text-contact' => 'Kontakt',
