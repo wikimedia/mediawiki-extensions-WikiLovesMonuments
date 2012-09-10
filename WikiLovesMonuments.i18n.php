@@ -590,6 +590,14 @@ $messages['nl'] = array(
 	'wlm-text-uploading' => 'Uploaden',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Luckas Blade
+ */
+$messages['pt-br'] = array(
+	'wlm-sidebar-portlet' => 'Outros países',
+	'wlm-international-contest' => 'Internacional',
+);
+
 /** Russian (русский)
  * @author Kalan
  */
