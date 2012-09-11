@@ -329,9 +329,10 @@ $messages['eu'] = array(
  */
 $messages['fr'] = array(
 	'wlm-extension-desc' => 'Ajoute des informations et messages liés au concours photographique Wiki Loves Monuments',
-	'wlm-no-contest-year' => "Il n'y n'avait aucun concours Wiki Loves Monument à  $1 .",
+	'wlm-no-contest-year' => "Il n'y n'avait aucun concours Wiki Loves Monument en $1.",
 	'wlm-no-url-bad-country' => "Nous ne pouvons pas afficher le site Web.  $1 n'est pas un code de pays valide.",
 	'wlm-country-not-given' => 'Vous devez fournir un code de pays.',
+	'wlm-country-not-participating-year' => '« $1 » ne participe pas à Wiki Loves Monuments $2',
 	'wlm-sidebar-portlet' => 'Autres pays',
 	'wlm-international-contest' => 'International',
 	'wlm-text-contact' => 'Nous contacter',
