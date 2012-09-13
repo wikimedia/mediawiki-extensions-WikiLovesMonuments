@@ -92,7 +92,7 @@ class WikiLovesMonuments {
 		'in' => 'http://www.wikilovesmonuments.in/', // India WP
 		'il' => 'http://www.wlm.org.il/', // Israel WP
 		'it' => 'http://www.wikilovesmonuments.it/', // Italy WP
-		'ke' => false, // Kenya
+		'ke' => 'http://en.wikipedia.org/wiki/Wikipedia:Wiki_Loves_Monuments_Kenya', // Kenya
 		'li' => false, // Liechtenstein
 		'lu' => 'http://www.wikilovesmonuments.be/', // Luxembourg MW
 		'mx' => 'http://wikilovesmonuments.mx/', // Mexico WP
