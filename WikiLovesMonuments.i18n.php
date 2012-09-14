@@ -493,15 +493,35 @@ $messages['ja'] = array(
 	'wlm-text-uploading' => 'アップロード中',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'wlm-sidebar-portlet' => 'სხვა ქვეყნები',
+	'wlm-international-contest' => 'საერთაშორისო',
+	'wlm-text-contact' => 'კონტაქტი',
+	'wlm-text-contest' => 'კონკურსი',
+	'wlm-text-donate' => 'შეწირულობები',
+	'wlm-text-faq' => 'ხშირი შეკითხვები',
+	'wlm-text-jury' => 'ჟიური',
+	'wlm-text-monuments' => 'მონუმენტი',
+	'wlm-text-news' => 'სიახლეები',
+	'wlm-text-participate' => 'მონაწილეობა!',
+	'wlm-text-prizes' => 'პრიზები',
+	'wlm-text-rules' => 'წესები',
+	'wlm-text-sponsors' => 'სპონსორები',
+	'wlm-text-uploading' => 'ატვირთვა',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
 $messages['ko'] = array(
-	'wlm-extension-desc' => '위키 사랑 기념물 사진 경연 대회와 관련된 정보 및 메시지 추가',
-	'wlm-no-contest-year' => '$1년에 위키 사랑 기념물이 없습니다.',
+	'wlm-extension-desc' => '위키 문화재 사랑 사진 경연 대회와 관련된 정보 및 메시지 추가',
+	'wlm-no-contest-year' => '$1년에 위키 문화재 사랑 경연 대회가 없습니다.',
 	'wlm-no-url-bad-country' => '우리는 현지 경쟁의 웹사이트를 얻을 수 없습니다. $1는 올바른 국가 코드가 아닙니다.',
 	'wlm-country-not-given' => '국가 코드를 제공해야 합니다.',
-	'wlm-country-not-participating-year' => '«$1» 국가는 $2년 위키 사랑 기념물에 참여하지 않습니다',
+	'wlm-country-not-participating-year' => '«$1» 국가는 $2년 위키 문화재 사랑에 참여하지 않습니다',
 	'wlm-sidebar-portlet' => '다른 국가',
 	'wlm-international-contest' => '국제',
 	'wlm-text-contact' => '연락하기',
@@ -509,7 +529,7 @@ $messages['ko'] = array(
 	'wlm-text-donate' => '기부',
 	'wlm-text-faq' => '자주 묻는 질문',
 	'wlm-text-jury' => '배심원',
-	'wlm-text-monuments' => '기념물',
+	'wlm-text-monuments' => '문화재',
 	'wlm-text-news' => '뉴스',
 	'wlm-text-participate' => '참여하세요!',
 	'wlm-text-prizes' => '상',
