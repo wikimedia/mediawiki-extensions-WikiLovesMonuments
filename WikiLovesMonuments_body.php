@@ -58,6 +58,7 @@ class WikiLovesMonuments {
 				'ro', // Romania
 				'ru', // Russia
 				'rs', // Serbia
+				'sk', // Slovakia
 				'za', // South Africa
 				'es', // Spain
 				'se', // Sweden
@@ -105,7 +106,7 @@ class WikiLovesMonuments {
 		'ro' => 'http://wikilovesmonuments.ro/', // Romania WP
 		'ru' => 'http://wikilovesmonuments.ru/', // Russia WP
 		'rs' => 'http://wlm.wikimedia.rs/pocetna.php', // Serbia custom
-		'sk' => 'http://sk.wikipedia.org/wiki/Wikip%C3%A9dia:Stretnutia/Pozvanie', // Slovakia
+		'sk' => 'http://sk.wikipedia.org/wiki/Wikip%C3%A9dia:WikiProjekt_Wiki_miluje_pamiatky', // Slovakia
 		'za' => 'http://wikilovesmonuments.co.za/', // South Africa MW
 		'es' => 'http://www.wikilm.es/', // Spain MW
 		'se' => 'http://wikilovesmonuments.se/', // Sweden WP
