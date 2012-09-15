@@ -105,6 +105,7 @@ class WikiLovesMonuments {
 		'ro' => 'http://wikilovesmonuments.ro/', // Romania WP
 		'ru' => 'http://wikilovesmonuments.ru/', // Russia WP
 		'rs' => 'http://wlm.wikimedia.rs/pocetna.php', // Serbia custom
+		'sk' => 'http://sk.wikipedia.org/wiki/Wikip%C3%A9dia:Stretnutia/Pozvanie', // Slovakia
 		'za' => 'http://wikilovesmonuments.co.za/', // South Africa MW
 		'es' => 'http://www.wikilm.es/', // Spain MW
 		'se' => 'http://wikilovesmonuments.se/', // Sweden WP
