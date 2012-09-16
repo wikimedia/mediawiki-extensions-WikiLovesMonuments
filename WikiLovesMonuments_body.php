@@ -308,7 +308,9 @@ class WikiLovesMonuments {
 		static $theCountries = array( 'cz', 'nl', 'ph', 'us' );
 
 		if ( in_array( $countryCode, $theCountries ) )
-			$country = "the_$country";
+			$country = "the $country";
+
+		$country = strtr( $country, ' ', '_' );
 
 		return "Images_from_Wiki_Loves_Monuments_{$year}_in_$country";
 	}
