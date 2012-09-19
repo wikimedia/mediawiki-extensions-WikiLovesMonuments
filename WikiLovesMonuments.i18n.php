@@ -694,6 +694,27 @@ $messages['sv'] = array(
 	'wlm-text-uploading' => 'Laddar upp',
 );
 
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
+$messages['sw'] = array(
+	'wlm-no-contest-year' => 'Hakukuwa na mashindano ya Wiki Yapenda Minara manmao $1.',
+	'wlm-country-not-given' => 'Unahitaji kuwasilisha Kodi ya Nchi.',
+	'wlm-country-not-participating-year' => '«$1» haishiriki katika Wiki Yapenda Minara $2',
+	'wlm-sidebar-portlet' => 'Nchi zingine',
+	'wlm-international-contest' => 'Ya kimataifa',
+	'wlm-text-contact' => 'Mawasiliano',
+	'wlm-text-contest' => 'Mashindano',
+	'wlm-text-donate' => 'Changa',
+	'wlm-text-monuments' => 'Minara',
+	'wlm-text-news' => 'Habari',
+	'wlm-text-participate' => 'Shiriki!',
+	'wlm-text-prizes' => 'Zawadi',
+	'wlm-text-rules' => 'Sheria',
+	'wlm-text-sponsors' => 'Wahisani',
+	'wlm-text-uploading' => 'Kupakia',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  * @author Sky Harbor
