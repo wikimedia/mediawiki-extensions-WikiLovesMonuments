@@ -638,6 +638,31 @@ $messages['nl'] = array(
 	'wlm-text-uploading' => 'Uploaden',
 );
 
+/** Polish (polski)
+ * @author BeginaFelicysym
+ */
+$messages['pl'] = array(
+	'wlm-extension-desc' => 'Dodaje informacje i wiadomości dotyczące konkursu fotograficznego Wiki Kocha Zabytki',
+	'wlm-no-contest-year' => 'Nie było żadnych konkursów Wiki Kocha Zabytki w  $1 r.',
+	'wlm-no-url-bad-country' => 'Nie mogliśmy uzyskać otrzymać strony dla lokalnego konkursu. $1 nie jest prawidłowym kodem kraju.',
+	'wlm-country-not-given' => 'Musisz podać kod kraju.',
+	'wlm-country-not-participating-year' => '«$1» nie uczestniczy w Wiki Kocha Zabytki $2',
+	'wlm-sidebar-portlet' => 'Inne kraje',
+	'wlm-international-contest' => 'Międzynarodowy',
+	'wlm-text-contact' => 'Kontakt',
+	'wlm-text-contest' => 'Konkurs',
+	'wlm-text-donate' => 'Dotuj',
+	'wlm-text-faq' => 'FAQ',
+	'wlm-text-jury' => 'Jury',
+	'wlm-text-monuments' => 'Zabytki',
+	'wlm-text-news' => 'Aktualności',
+	'wlm-text-participate' => 'Weź udział!',
+	'wlm-text-prizes' => 'Nagrody',
+	'wlm-text-rules' => 'Regulamin',
+	'wlm-text-sponsors' => 'Sponsorzy',
+	'wlm-text-uploading' => 'Przesyłanie',
+);
+
 /** Brazilian Portuguese (português do Brasil)
  * @author Luckas Blade
  */
