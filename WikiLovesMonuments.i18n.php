@@ -640,13 +640,14 @@ $messages['nl'] = array(
 
 /** Polish (polski)
  * @author BeginaFelicysym
+ * @author Matma Rex
  */
 $messages['pl'] = array(
-	'wlm-extension-desc' => 'Dodaje informacje i wiadomości dotyczące konkursu fotograficznego Wiki Kocha Zabytki',
-	'wlm-no-contest-year' => 'Nie było żadnych konkursów Wiki Kocha Zabytki w  $1 r.',
+	'wlm-extension-desc' => 'Dodaje informacje i wiadomości dotyczące konkursu fotograficznego Wiki Lubi Zabytki',
+	'wlm-no-contest-year' => 'Konkurs Wiki Lubi Zabytki w $1 roku nie odbył się.',
 	'wlm-no-url-bad-country' => 'Nie mogliśmy uzyskać otrzymać strony dla lokalnego konkursu. $1 nie jest prawidłowym kodem kraju.',
 	'wlm-country-not-given' => 'Musisz podać kod kraju.',
-	'wlm-country-not-participating-year' => '«$1» nie uczestniczy w Wiki Kocha Zabytki $2',
+	'wlm-country-not-participating-year' => '«$1» nie uczestniczy w Wiki Lubi Zabytki $2',
 	'wlm-sidebar-portlet' => 'Inne kraje',
 	'wlm-international-contest' => 'Międzynarodowy',
 	'wlm-text-contact' => 'Kontakt',
