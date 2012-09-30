@@ -664,6 +664,18 @@ $messages['pl'] = array(
 	'wlm-text-uploading' => 'Przesyłanie',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'wlm-sidebar-portlet' => 'نور هېوادونه',
+	'wlm-international-contest' => 'نړيوال',
+	'wlm-text-contact' => 'اړيکه',
+	'wlm-text-contest' => 'سيالي',
+	'wlm-text-donate' => 'بسپنه ورکول',
+	'wlm-text-news' => 'خبرونه',
+);
+
 /** Brazilian Portuguese (português do Brasil)
  * @author Luckas Blade
  */
