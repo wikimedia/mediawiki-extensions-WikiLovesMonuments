@@ -135,7 +135,7 @@ $messages['ast'] = array(
 	'wlm-text-uploading' => 'Cargar fotos',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -233,7 +233,7 @@ $messages['de'] = array(
 	'wlm-text-uploading' => 'Dateien hochladen',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  */
 $messages['de-formal'] = array(
