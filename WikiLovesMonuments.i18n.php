@@ -563,6 +563,13 @@ $messages['ksh'] = array(
 	'wlm-text-uploading' => 'Aam Huhlaade',
 );
 
+/** Lazuri (Lazuri)
+ * @author Erdemaslancan
+ */
+$messages['lzz'] = array(
+	'wlm-text-news' => 'Ambari',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
