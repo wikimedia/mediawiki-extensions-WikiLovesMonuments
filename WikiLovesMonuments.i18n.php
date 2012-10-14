@@ -565,6 +565,31 @@ $messages['ksh'] = array(
 	'wlm-text-uploading' => 'Aam Huhlaade',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'wlm-extension-desc' => 'Setzt Informatiounen a Message fir de Wiki Loves Monuments Foto-Concours derbäi',
+	'wlm-no-contest-year' => 'Et gouf kee Wiki Loves Monuments Concours am Joer $1.',
+	'wlm-no-url-bad-country' => "D'Internetsäit fir de lokale Concours konnt net fonnt ginn. $1 ass kee valabele Lännercode.",
+	'wlm-country-not-given' => 'Dir musst e Lännercode uginn.',
+	'wlm-country-not-participating-year' => '"$1" mécht net bäi Wiki Loves Monuments $2 mat',
+	'wlm-sidebar-portlet' => 'Aner Länner:',
+	'wlm-international-contest' => 'International',
+	'wlm-text-contact' => 'Kontakt',
+	'wlm-text-contest' => 'Concours',
+	'wlm-text-donate' => 'Maacht en Don',
+	'wlm-text-faq' => 'FAQ',
+	'wlm-text-jury' => 'Jury',
+	'wlm-text-monuments' => 'Monumenter',
+	'wlm-text-news' => 'Neiegkeeten',
+	'wlm-text-participate' => 'Maacht mat!',
+	'wlm-text-prizes' => 'Präisser',
+	'wlm-text-rules' => 'Regelen',
+	'wlm-text-sponsors' => 'Sponsoren',
+	'wlm-text-uploading' => 'Eroplueden',
+);
+
 /** Lazuri (Lazuri)
  * @author Erdemaslancan
  */
