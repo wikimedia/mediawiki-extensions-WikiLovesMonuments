@@ -135,6 +135,29 @@ $messages['ast'] = array(
 	'wlm-text-uploading' => 'Cargar fotos',
 );
 
+/** Belarusian (беларуская)
+ * @author Чаховіч Уладзіслаў
+ */
+$messages['be'] = array(
+	'wlm-extension-desc' => 'Дадае інфармацыю і паведамленні, звязаныя з фотаконкурсам «Вікі любіць славутасці»',
+	'wlm-no-contest-year' => 'Конкурс «Вікі любіць славутасці» не праводзіўся ў $1.',
+	'wlm-no-url-bad-country' => 'Не атрымалася вызначыць сайт спаборніцтва ў дадзенай мясцовасці. $1 — няслушны код краіны.',
+	'wlm-sidebar-portlet' => 'Іншыя краіны',
+	'wlm-international-contest' => 'Міжнародны',
+	'wlm-text-contact' => 'Кантактныя даныя',
+	'wlm-text-contest' => 'Конкурс',
+	'wlm-text-donate' => 'Ахвяраванні',
+	'wlm-text-faq' => 'Пытанні і адказы',
+	'wlm-text-jury' => 'Журы',
+	'wlm-text-monuments' => 'Славутасці',
+	'wlm-text-news' => 'Навіны',
+	'wlm-text-participate' => 'Удзельнічаць!',
+	'wlm-text-prizes' => 'Прызы',
+	'wlm-text-rules' => 'Правілы',
+	'wlm-text-sponsors' => 'Спонсары',
+	'wlm-text-uploading' => 'Як загружаць выявы',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
