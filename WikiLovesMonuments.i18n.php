@@ -731,6 +731,9 @@ $messages['ps'] = array(
 	'wlm-text-contest' => 'سيالي',
 	'wlm-text-donate' => 'بسپنه ورکول',
 	'wlm-text-news' => 'خبرونه',
+	'wlm-text-prizes' => 'جايزې',
+	'wlm-text-rules' => 'قوانين',
+	'wlm-text-uploading' => 'د پورته کولو په حال کې...',
 );
 
 /** Brazilian Portuguese (português do Brasil)
