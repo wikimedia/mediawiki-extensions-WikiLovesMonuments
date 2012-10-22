@@ -895,4 +895,3 @@ $messages['vi'] = array(
 	'wlm-text-contact' => 'Liên lạc',
 	'wlm-text-news' => 'Tin tức',
 );
-
