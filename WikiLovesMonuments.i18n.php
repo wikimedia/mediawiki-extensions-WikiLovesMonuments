@@ -267,6 +267,26 @@ $messages['de-formal'] = array(
 	'wlm-text-participate' => 'Machen Sie mit!',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'wlm-sidebar-portlet' => 'Zewbi dewleti',
+	'wlm-international-contest' => 'Enternasyonel',
+	'wlm-text-contact' => 'İrtibat',
+	'wlm-text-contest' => 'Zerreki',
+	'wlm-text-donate' => 'Bêc',
+	'wlm-text-faq' => 'PZP',
+	'wlm-text-jury' => 'Curi',
+	'wlm-text-monuments' => 'Ziyarıki',
+	'wlm-text-news' => 'Xeber',
+	'wlm-text-participate' => 'Leteyin',
+	'wlm-text-prizes' => 'Xelati',
+	'wlm-text-rules' => 'Loği',
+	'wlm-text-sponsors' => 'Sponsori',
+	'wlm-text-uploading' => 'Bar beno',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
