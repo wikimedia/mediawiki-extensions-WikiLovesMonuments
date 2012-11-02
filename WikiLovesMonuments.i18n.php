@@ -269,20 +269,21 @@ $messages['de-formal'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
-	'wlm-sidebar-portlet' => 'Zewbi dewleti',
-	'wlm-international-contest' => 'Enternasyonel',
-	'wlm-text-contact' => 'İrtibat',
-	'wlm-text-contest' => 'Zerreki',
-	'wlm-text-donate' => 'Bêc',
+	'wlm-sidebar-portlet' => 'Sewbina dewleti',
+	'wlm-international-contest' => 'Beynelmılel',
+	'wlm-text-contact' => 'İrtıbat',
+	'wlm-text-contest' => 'Mısabeqa',
+	'wlm-text-donate' => 'Beğş',
 	'wlm-text-faq' => 'PZP',
 	'wlm-text-jury' => 'Curi',
 	'wlm-text-monuments' => 'Ziyarıki',
-	'wlm-text-news' => 'Xeber',
-	'wlm-text-participate' => 'Leteyin',
+	'wlm-text-news' => 'Xeberi',
+	'wlm-text-participate' => 'Cı kewê!',
 	'wlm-text-prizes' => 'Xelati',
-	'wlm-text-rules' => 'Loği',
+	'wlm-text-rules' => 'Qeydey',
 	'wlm-text-sponsors' => 'Sponsori',
 	'wlm-text-uploading' => 'Bar beno',
 );
