@@ -843,11 +843,12 @@ $messages['sv'] = array(
 );
 
 /** Swahili (Kiswahili)
+ * @author Lloffiwr
  * @author Stephenwanjau
  */
 $messages['sw'] = array(
 	'wlm-no-contest-year' => 'Hakukuwa na mashindano ya Wiki Yapenda Minara manmao $1.',
-	'wlm-country-not-given' => 'Unahitaji kuwasilisha Kodi ya Nchi.',
+	'wlm-country-not-given' => 'Unahitaji kuwasilisha Msimbo wa Nchi.',
 	'wlm-country-not-participating-year' => '«$1» haishiriki katika Wiki Yapenda Minara $2',
 	'wlm-sidebar-portlet' => 'Nchi zingine',
 	'wlm-international-contest' => 'Ya kimataifa',
