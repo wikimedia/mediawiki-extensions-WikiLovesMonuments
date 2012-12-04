@@ -771,11 +771,14 @@ $messages['pt-br'] = array(
 
 /** Russian (русский)
  * @author Kalan
+ * @author Putnik
  */
 $messages['ru'] = array(
 	'wlm-extension-desc' => 'Добавляет информацию и сообщения, связанные с фотоконкурсом «Вики любит памятники»',
 	'wlm-no-contest-year' => 'Конкурс «Вики любит памятники» не проводился в $1.',
 	'wlm-no-url-bad-country' => 'Не удалось определить сайт соревнования в данной местности. $1 — неверный код страны.',
+	'wlm-country-not-given' => 'Вам нужно указать код страны.',
+	'wlm-country-not-participating-year' => '«$1» не участвует в «Вики любит памятники — $2»',
 	'wlm-sidebar-portlet' => 'Другие страны',
 	'wlm-international-contest' => 'Международный',
 	'wlm-text-contact' => 'Контактные данные',
