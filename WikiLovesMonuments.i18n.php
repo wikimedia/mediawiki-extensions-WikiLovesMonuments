@@ -896,11 +896,14 @@ $messages['tl'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Ата
  */
 $messages['uk'] = array(
 	'wlm-extension-desc' => 'Додає інформацію та повідомлення, що пов\'язані з конкурсом "Вікі любить пам\'ятки"',
 	'wlm-no-contest-year' => 'Конкурс "Вікі любить пам\'ятки" в $1 не проводився.',
 	'wlm-no-url-bad-country' => 'Немає інформації щодо сайту конкурсу країни $1.',
+	'wlm-country-not-given' => 'Вам потрібно вказати код країни.',
+	'wlm-country-not-participating-year' => "«$1» не бере участі у Вікі Любить Пам'ятки $2",
 	'wlm-sidebar-portlet' => 'Інші країни',
 	'wlm-international-contest' => 'Міжнародний',
 	'wlm-text-contact' => 'Контакти',
