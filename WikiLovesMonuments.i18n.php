@@ -371,6 +371,19 @@ $messages['eu'] = array(
 	'wlm-text-news' => 'Albisteak',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'wlm-sidebar-portlet' => 'دیگر کشورها',
+	'wlm-international-contest' => 'بین المللی',
+	'wlm-text-contact' => 'تماس',
+	'wlm-text-donate' => 'کمک مالی',
+	'wlm-text-faq' => 'پرسش‌های رایج',
+	'wlm-text-news' => 'اخبار',
+	'wlm-text-rules' => 'قوانین',
+);
+
 /** French (français)
  * @author Erkethan
  * @author Tititou36
@@ -769,6 +782,27 @@ $messages['pt-br'] = array(
 	'wlm-international-contest' => 'Internacional',
 );
 
+/** Romanian (română)
+ * @author Minisarm
+ * @author Stelistcristi
+ */
+$messages['ro'] = array(
+	'wlm-sidebar-portlet' => 'Alte țări',
+	'wlm-international-contest' => 'Internațional',
+	'wlm-text-contact' => 'Contact',
+	'wlm-text-contest' => 'Concurs',
+	'wlm-text-donate' => 'Donații',
+	'wlm-text-faq' => 'Întrebări frecvente',
+	'wlm-text-jury' => 'Juriu',
+	'wlm-text-monuments' => 'Monumente',
+	'wlm-text-news' => 'Noutăți',
+	'wlm-text-participate' => 'Participați!',
+	'wlm-text-prizes' => 'Premii',
+	'wlm-text-rules' => 'Regulament',
+	'wlm-text-sponsors' => 'Sponsori',
+	'wlm-text-uploading' => 'Se încarcă',
+);
+
 /** Russian (русский)
  * @author Kalan
  * @author Putnik
@@ -926,4 +960,11 @@ $messages['uk'] = array(
 $messages['vi'] = array(
 	'wlm-text-contact' => 'Liên lạc',
 	'wlm-text-news' => 'Tin tức',
+);
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Shirayuki
+ */
+$messages['zh-hans'] = array(
+	'wlm-text-faq' => '常见问题',
 );
