@@ -966,5 +966,24 @@ $messages['vi'] = array(
  * @author Shirayuki
  */
 $messages['zh-hans'] = array(
+	'wlm-sidebar-portlet' => '其他国家',
+	'wlm-text-contact' => '联系',
+	'wlm-text-contest' => '比赛',
 	'wlm-text-faq' => '常见问题',
+	'wlm-text-news' => '新闻',
+	'wlm-text-rules' => '规则',
+	'wlm-text-sponsors' => '资助',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Shirayuki
+ */
+$messages['zh-hant'] = array(
+	'wlm-sidebar-portlet' => '其他國家',
+	'wlm-text-contact' => '聯繫',
+	'wlm-text-contest' => '比賽',
+	'wlm-text-faq' => '常見問題解答',
+	'wlm-text-news' => '新聞',
+	'wlm-text-rules' => '規則',
+	'wlm-text-sponsors' => '贊助商',
 );
