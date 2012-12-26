@@ -414,6 +414,7 @@ $messages['fr'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'wlm-country-not-given' => 'Vos dête balyér un code payis.',
 	'wlm-sidebar-portlet' => 'Ôtros payis',
 	'wlm-international-contest' => 'Entèrnacionâl',
 	'wlm-text-contact' => 'Contacte',
@@ -759,6 +760,31 @@ $messages['pl'] = array(
 	'wlm-text-uploading' => 'Przesyłanie',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'wlm-extension-desc' => 'A gionta anformassion e mëssagi relativ al concors fotogràfich Wiki Loves Monuments',
+	'wlm-no-contest-year' => 'A-i é pa gnun concors Wiki Loves Monuments an $1.',
+	'wlm-no-url-bad-country' => "I podoma pa trové ël sit web për la competission local. $1 a l'é pa un còdes bon ëd paìs.",
+	'wlm-country-not-given' => 'It deuve dé un còdes ëd paìs.',
+	'wlm-country-not-participating-year' => '«$1» a partessipa pa a Wiki Loves Monuments $2',
+	'wlm-sidebar-portlet' => 'Àutri paìs',
+	'wlm-international-contest' => 'Antërnassional',
+	'wlm-text-contact' => 'Contat',
+	'wlm-text-contest' => 'Gara',
+	'wlm-text-donate' => 'Doné',
+	'wlm-text-faq' => 'Chestion frequente',
+	'wlm-text-jury' => 'Giurìa',
+	'wlm-text-monuments' => 'Monument',
+	'wlm-text-news' => 'Neuve',
+	'wlm-text-participate' => 'Partessipa!',
+	'wlm-text-prizes' => 'Premi',
+	'wlm-text-rules' => 'Ròj',
+	'wlm-text-sponsors' => 'Sponsor',
+	'wlm-text-uploading' => 'Cariament',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
@@ -827,6 +853,25 @@ $messages['ru'] = array(
 	'wlm-text-rules' => 'Правила',
 	'wlm-text-sponsors' => 'Спонсоры',
 	'wlm-text-uploading' => 'Как загружать фото',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'wlm-sidebar-portlet' => 'වෙනත් රටවල්',
+	'wlm-international-contest' => 'අන්තර්ජාතික',
+	'wlm-text-contact' => 'සම්බන්ධ කරන්න',
+	'wlm-text-contest' => 'තරඟය',
+	'wlm-text-donate' => 'පරිත්‍යාග කරන්න',
+	'wlm-text-faq' => 'නිවිප්‍ර',
+	'wlm-text-jury' => 'ජූරිය',
+	'wlm-text-monuments' => 'සිහිවටන',
+	'wlm-text-news' => 'පුවත්',
+	'wlm-text-participate' => 'සහභාගී වන්න!',
+	'wlm-text-prizes' => 'ත්‍යාග',
+	'wlm-text-sponsors' => 'අනුග්‍රාහකයන්',
+	'wlm-text-uploading' => 'උඩුගත කෙරෙමින් පවතී',
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
@@ -899,6 +944,16 @@ $messages['sw'] = array(
 	'wlm-text-rules' => 'Sheria',
 	'wlm-text-sponsors' => 'Wahisani',
 	'wlm-text-uploading' => 'Kupakia',
+);
+
+/** Tamil (தமிழ்)
+ * @author Shanmugamp7
+ */
+$messages['ta'] = array(
+	'wlm-country-not-given' => 'நீங்கள் நாட்டின் குறியீட்டை உள்ளிட வேண்டும்',
+	'wlm-sidebar-portlet' => 'மற்ற நாடுகள்',
+	'wlm-international-contest' => 'உலகளாவிய',
+	'wlm-text-contact' => 'தொடர்புகொள்க',
 );
 
 /** Tagalog (Tagalog)
