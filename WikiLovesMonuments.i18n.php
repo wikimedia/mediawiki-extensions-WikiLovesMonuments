@@ -384,6 +384,31 @@ $messages['fa'] = array(
 	'wlm-text-rules' => 'قوانین',
 );
 
+/** Finnish (suomi)
+ * @author VezonThunder
+ */
+$messages['fi'] = array(
+	'wlm-extension-desc' => 'Lisää tietoa ja viestejä Wiki Loves Monuments -valokuvakilpailuun liittyen',
+	'wlm-no-contest-year' => 'Vuonna $1 ei ollut Wiki Loves Monuments -kilpailua.',
+	'wlm-no-url-bad-country' => 'Paikallisen kilpailun verkkosivustoa ei voitu hakea. $1 ei ole kelvollinen maakoodi.',
+	'wlm-country-not-given' => 'Sinun tarvitsee syöttää maakoodi.',
+	'wlm-country-not-participating-year' => '«$1» ei mukana Wiki Loves Monuments $2 -kilpailussa',
+	'wlm-sidebar-portlet' => 'Muut maat',
+	'wlm-international-contest' => 'Kansainvälinen',
+	'wlm-text-contact' => 'Ota yhteyttä',
+	'wlm-text-contest' => 'Kilpailu',
+	'wlm-text-donate' => 'Lahjoita',
+	'wlm-text-faq' => 'Usein kysytyt kysymykset',
+	'wlm-text-jury' => 'Tuomaristo',
+	'wlm-text-monuments' => 'Monumentit',
+	'wlm-text-news' => 'Uutiset',
+	'wlm-text-participate' => 'Osallistu!',
+	'wlm-text-prizes' => 'Palkinnot',
+	'wlm-text-rules' => 'Säännöt',
+	'wlm-text-sponsors' => 'Sponsorit',
+	'wlm-text-uploading' => 'Lähettäminen',
+);
+
 /** French (français)
  * @author Erkethan
  * @author Tititou36
@@ -625,6 +650,14 @@ $messages['ksh'] = array(
 	'wlm-text-rules' => 'Rääjelle',
 	'wlm-text-sponsors' => 'Schponsere',
 	'wlm-text-uploading' => 'Aam Huhlaade',
+);
+
+/** Kirghiz (Кыргызча)
+ * @author Growingup
+ */
+$messages['ky'] = array(
+	'wlm-text-faq' => 'КБС',
+	'wlm-text-news' => 'Жаңылыктар',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
