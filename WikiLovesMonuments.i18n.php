@@ -903,6 +903,7 @@ $messages['si'] = array(
 	'wlm-text-news' => 'පුවත්',
 	'wlm-text-participate' => 'සහභාගී වන්න!',
 	'wlm-text-prizes' => 'ත්‍යාග',
+	'wlm-text-rules' => 'නීති',
 	'wlm-text-sponsors' => 'අනුග්‍රාහකයන්',
 	'wlm-text-uploading' => 'උඩුගත කෙරෙමින් පවතී',
 );
