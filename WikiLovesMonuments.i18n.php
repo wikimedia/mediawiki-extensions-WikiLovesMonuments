@@ -608,7 +608,7 @@ $messages['ka'] = array(
 $messages['ko'] = array(
 	'wlm-extension-desc' => '위키 기념물 사랑 사진 경연 대회와 관련된 정보 및 메시지 추가',
 	'wlm-no-contest-year' => '$1년에 위키 기념물 사랑 경연 대회가 없습니다.',
-	'wlm-no-url-bad-country' => '우리는 현지 경쟁의 웹사이트를 얻을 수 없습니다. $1는 올바른 국가 코드가 아닙니다.',
+	'wlm-no-url-bad-country' => '현지 경쟁의 웹사이트를 얻을 수 없습니다. $1는 올바른 국가 코드가 아닙니다.',
 	'wlm-country-not-given' => '국가 코드를 제공해야 합니다.',
 	'wlm-country-not-participating-year' => '«$1» 국가는 $2년 위키 기념물 사랑에 참여하지 않습니다',
 	'wlm-sidebar-portlet' => '다른 국가',
@@ -892,6 +892,7 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'wlm-country-not-given' => 'ඔබට දේශ්‍රීය කේතයක් ඉදිරිපත් කිරීමට සිදුවේ.',
 	'wlm-sidebar-portlet' => 'වෙනත් රටවල්',
 	'wlm-international-contest' => 'අන්තර්ජාතික',
 	'wlm-text-contact' => 'සම්බන්ධ කරන්න',
