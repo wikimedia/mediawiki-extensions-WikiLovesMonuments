@@ -892,7 +892,9 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'wlm-no-contest-year' => '$1 හී විකි ආදර තරඟයක් නොතිබේ.',
 	'wlm-country-not-given' => 'ඔබට දේශ්‍රීය කේතයක් ඉදිරිපත් කිරීමට සිදුවේ.',
+	'wlm-country-not-participating-year' => '«$1» විකි ආදර සිහිවටන සඳහා සහභාගී නොවේ $2',
 	'wlm-sidebar-portlet' => 'වෙනත් රටවල්',
 	'wlm-international-contest' => 'අන්තර්ජාතික',
 	'wlm-text-contact' => 'සම්බන්ධ කරන්න',
