@@ -794,14 +794,15 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'wlm-extension-desc' => 'A gionta anformassion e mëssagi relativ al concors fotogràfich Wiki Loves Monuments',
+	'wlm-extension-desc' => "A gionta dj'anformassion e mëssagi relativ al concors fotogràfich Wiki Loves Monuments",
 	'wlm-no-contest-year' => 'A-i é pa gnun concors Wiki Loves Monuments an $1.',
-	'wlm-no-url-bad-country' => "I podoma pa trové ël sit web për la competission local. $1 a l'é pa un còdes bon ëd paìs.",
-	'wlm-country-not-given' => 'It deuve dé un còdes ëd paìs.',
-	'wlm-country-not-participating-year' => '«$1» a partessipa pa a Wiki Loves Monuments $2',
+	'wlm-no-url-bad-country' => "I podoma pa trové ël sit an sl'aragnà për la competission local. $1 a l'é pa un còdes ëd paìs bon.",
+	'wlm-country-not-given' => 'A dev buté un còdes ëd paìs.',
+	'wlm-country-not-participating-year' => '«$1» a partìssipa pa a Wiki Loves Monuments $2',
 	'wlm-sidebar-portlet' => 'Àutri paìs',
 	'wlm-international-contest' => 'Antërnassional',
 	'wlm-text-contact' => 'Contat',
@@ -811,9 +812,9 @@ $messages['pms'] = array(
 	'wlm-text-jury' => 'Giurìa',
 	'wlm-text-monuments' => 'Monument',
 	'wlm-text-news' => 'Neuve',
-	'wlm-text-participate' => 'Partessipa!',
+	'wlm-text-participate' => "Ch'a partìssipa!",
 	'wlm-text-prizes' => 'Premi',
-	'wlm-text-rules' => 'Ròj',
+	'wlm-text-rules' => 'Régole',
 	'wlm-text-sponsors' => 'Sponsor',
 	'wlm-text-uploading' => 'Cariament',
 );
