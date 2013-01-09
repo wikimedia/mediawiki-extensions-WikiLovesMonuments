@@ -815,7 +815,7 @@ $messages['pms'] = array(
 	'wlm-text-participate' => "Ch'a partìssipa!",
 	'wlm-text-prizes' => 'Premi',
 	'wlm-text-rules' => 'Régole',
-	'wlm-text-sponsors' => 'Sponsor',
+	'wlm-text-sponsors' => 'Ansersionista',
 	'wlm-text-uploading' => 'Cariament',
 );
 
