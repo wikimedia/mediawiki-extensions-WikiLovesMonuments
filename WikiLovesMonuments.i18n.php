@@ -34,6 +34,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Platonides
+ * @author Shirayuki
  * @author Siebrand
  */
 $messages['qqq'] = array(
@@ -48,7 +49,7 @@ It is recommended to use a neutral verb time when possible. Note that this could
 * ''country'' is not participating in Wiki Loves Monuments this year
 * ''country'' is not scheduled to participate in Wiki Loves Monuments next year
 
-However, you don't need to prepare for really off year values, since {{msg|wlm-no-contest-year}} will fire before this if there's no data about such competition.
+However, you don't need to prepare for really off year values, since {{msg-mw|wlm-no-contest-year}} will fire before this if there's no data about such competition.
 
 Parameters:
 * $1 is the country
