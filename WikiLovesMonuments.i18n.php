@@ -1058,11 +1058,13 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Shirayuki
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'wlm-sidebar-portlet' => '其他国家',
 	'wlm-text-contact' => '联系',
 	'wlm-text-contest' => '比赛',
+	'wlm-text-donate' => '捐赠',
 	'wlm-text-faq' => '常见问题',
 	'wlm-text-news' => '新闻',
 	'wlm-text-rules' => '规则',
