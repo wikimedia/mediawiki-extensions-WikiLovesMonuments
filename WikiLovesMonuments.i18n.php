@@ -67,7 +67,8 @@ Parameters:
 	'wlm-text-prizes' => 'Prizes, awards, what you will give to the authors of the best photos. Suitable for leading to a page describing them.',
 	'wlm-text-rules' => "Rules, the thing that people must abide by for participating in Wiki Loves Monuments. Caption suitable for a page with a boring list of things that most people won't actually need.",
 	'wlm-text-sponsors' => 'Caption suitable for leading to a page about the sponsors/partners of the Wiki Loves Monuments contest.',
-	'wlm-text-uploading' => 'Text suitable for leading to a page with instructions / explaining how to upload the photos.',
+	'wlm-text-uploading' => 'Text suitable for leading to a page with instructions / explaining how to upload the photos.
+{{Identical|Uploading}}',
 );
 
 /** Afrikaans (Afrikaans)
