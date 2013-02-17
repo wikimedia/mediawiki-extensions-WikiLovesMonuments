@@ -1061,17 +1061,29 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Shirayuki
+ * @author Shizhao
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
+	'wlm-extension-desc' => '添加有关维基爱古迹摄影大赛的信息和消息',
+	'wlm-no-contest-year' => '$1年没有维基爱古迹大赛。',
+	'wlm-no-url-bad-country' => '我们没有本地竞赛的网站。$1不是一个有效的国家代码。',
+	'wlm-country-not-given' => '你必须提供一个国家代码。',
+	'wlm-country-not-participating-year' => '«$1»没有参与$2年维基爱古迹活动',
 	'wlm-sidebar-portlet' => '其他国家',
+	'wlm-international-contest' => '国际',
 	'wlm-text-contact' => '联系',
 	'wlm-text-contest' => '比赛',
 	'wlm-text-donate' => '捐赠',
 	'wlm-text-faq' => '常见问题',
+	'wlm-text-jury' => '评审团',
+	'wlm-text-monuments' => '古迹',
 	'wlm-text-news' => '新闻',
+	'wlm-text-participate' => '参加 ！',
+	'wlm-text-prizes' => '奖项',
 	'wlm-text-rules' => '规则',
-	'wlm-text-sponsors' => '资助',
+	'wlm-text-sponsors' => '赞助',
+	'wlm-text-uploading' => '上传',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
