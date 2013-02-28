@@ -38,7 +38,7 @@ $messages['en'] = array(
  * @author Siebrand
  */
 $messages['qqq'] = array(
-	'wlm-extension-desc' => '{{desc}}',
+	'wlm-extension-desc' => '{{desc|name=Wiki Loves Monuments|url=http://www.mediawiki.org/wiki/Extension:WikiLovesMonuments}}',
 	'wlm-no-contest-year' => 'Error message given when WLM parser functions get passed a parameter which is not a year in which there was (or is planned) a WLM edition. Parameters:
 * $1 is a year.',
 	'wlm-no-url-bad-country' => 'Error message given when {{#wlm-country-website: }} is given something that is not a country code.',
