@@ -65,7 +65,8 @@ Parameters:
 	'wlm-text-news' => 'News, current events. Suitable as a caption for a page/blog giving the latest information about the contest.',
 	'wlm-text-participate' => 'Text moving the user to participate in the Wiki Loves Monuments contest, preferably some kind of imperative. Suitable as caption for a link to a page explaining how to participate in a few simple steps.',
 	'wlm-text-prizes' => 'Prizes, awards, what you will give to the authors of the best photos. Suitable for leading to a page describing them.',
-	'wlm-text-rules' => "Rules, the thing that people must abide by for participating in Wiki Loves Monuments. Caption suitable for a page with a boring list of things that most people won't actually need.",
+	'wlm-text-rules' => "Rules, the thing that people must abide by for participating in Wiki Loves Monuments. Caption suitable for a page with a boring list of things that most people won't actually need.
+{{Identical|Rule}}",
 	'wlm-text-sponsors' => 'Caption suitable for leading to a page about the sponsors/partners of the Wiki Loves Monuments contest.',
 	'wlm-text-uploading' => 'Text suitable for leading to a page with instructions / explaining how to upload the photos.
 {{Identical|Uploading}}',
@@ -209,6 +210,13 @@ $messages['ca'] = array(
 	'wlm-text-rules' => 'Reglament',
 	'wlm-text-sponsors' => 'Patrocinadors',
 	'wlm-text-uploading' => "S'està carregant",
+);
+
+/** Sorani Kurdish (کوردی)
+ * @author Calak
+ */
+$messages['ckb'] = array(
+	'wlm-text-faq' => 'پرسیارە دووپاتکراوەکان',
 );
 
 /** Czech (česky)
