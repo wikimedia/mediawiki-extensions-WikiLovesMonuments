@@ -190,6 +190,19 @@ $messages['be-tarask'] = array(
 	'wlm-text-uploading' => 'Загрузка здымкаў',
 );
 
+/** Breton (brezhoneg)
+ * @author Fohanno
+ */
+$messages['br'] = array(
+	'wlm-country-not-given' => "Ret eo deoc'h pourchas ur c'hod bro.",
+	'wlm-sidebar-portlet' => 'Broioù all',
+	'wlm-international-contest' => 'Etrebroadel',
+	'wlm-text-donate' => 'Ober un donezon',
+	'wlm-text-faq' => 'FAG',
+	'wlm-text-jury' => 'Juri',
+	'wlm-text-monuments' => 'Monumantoù',
+);
+
 /** Catalan (català)
  * @author Elisardojm
  * @author Platonides
