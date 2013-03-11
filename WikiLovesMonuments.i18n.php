@@ -679,6 +679,13 @@ $messages['ksh'] = array(
 	'wlm-text-uploading' => 'Aam Huhlaade',
 );
 
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'wlm-international-contest' => 'Navneteweyî',
+);
+
 /** Kirghiz (Кыргызча)
  * @author Growingup
  */
