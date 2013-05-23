@@ -897,6 +897,22 @@ $messages['ro'] = array(
 	'wlm-text-uploading' => 'Se încarcă',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'wlm-sidebar-portlet' => 'Otre naziune',
+	'wlm-international-contest' => "'Ndernazionale",
+	'wlm-text-contact' => 'Condatte',
+	'wlm-text-contest' => 'Congorse',
+	'wlm-text-donate' => 'Ddone',
+	'wlm-text-faq' => 'FAQ',
+	'wlm-text-jury' => 'Giurìe',
+	'wlm-text-monuments' => 'Monuminde',
+	'wlm-text-news' => 'Nuvetà',
+	'wlm-text-participate' => 'Partecipe!',
+);
+
 /** Russian (русский)
  * @author Kalan
  * @author Putnik
