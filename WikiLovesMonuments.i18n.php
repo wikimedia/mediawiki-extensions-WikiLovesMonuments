@@ -190,6 +190,27 @@ $messages['be-tarask'] = array(
 	'wlm-text-uploading' => 'Загрузка здымкаў',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ * @author Nasir8891
+ */
+$messages['bn'] = array(
+	'wlm-sidebar-portlet' => 'অন্যান্য দেশসমূহ',
+	'wlm-international-contest' => 'আন্তর্জাতিক',
+	'wlm-text-contact' => 'যোগাযোগ',
+	'wlm-text-contest' => 'প্রতিযোগীতা',
+	'wlm-text-donate' => 'দান করুন',
+	'wlm-text-faq' => 'সম্ভাব্য প্রশ্নসমূহ',
+	'wlm-text-jury' => 'বিচারক',
+	'wlm-text-monuments' => 'মনুমেন্টসমূহ',
+	'wlm-text-news' => 'সংবাদ',
+	'wlm-text-participate' => 'অংশগ্রহন করুন!',
+	'wlm-text-prizes' => 'পুরস্কার',
+	'wlm-text-rules' => 'নিয়মকানুন',
+	'wlm-text-sponsors' => 'পৃষ্ঠপোষক',
+	'wlm-text-uploading' => 'আপলোড হচ্ছে',
+);
+
 /** Breton (brezhoneg)
  * @author Fohanno
  */
