@@ -1155,14 +1155,27 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
  * @author Shirayuki
  */
 $messages['zh-hant'] = array(
+	'wlm-extension-desc' => '添加有關維基愛古跡攝影大賽的訊息',
+	'wlm-no-contest-year' => '$1年没有維基愛古跡大賽。',
+	'wlm-no-url-bad-country' => '我們無法取得本地比賽的網站。$1並非有效國家代碼。',
+	'wlm-country-not-given' => '您需要提供國家代碼。',
+	'wlm-country-not-participating-year' => '«$1»没有參與$2年維基愛古跡活動',
 	'wlm-sidebar-portlet' => '其他國家',
+	'wlm-international-contest' => '國際',
 	'wlm-text-contact' => '聯繫',
 	'wlm-text-contest' => '比賽',
+	'wlm-text-donate' => '捐助',
 	'wlm-text-faq' => '常見問題解答',
+	'wlm-text-jury' => '評審',
+	'wlm-text-monuments' => '古蹟',
 	'wlm-text-news' => '新聞',
+	'wlm-text-participate' => '參加！',
+	'wlm-text-prizes' => '獎品',
 	'wlm-text-rules' => '規則',
 	'wlm-text-sponsors' => '贊助商',
+	'wlm-text-uploading' => '上載中',
 );
