@@ -923,6 +923,11 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'wlm-extension-desc' => "Aggiunge 'mbormaziune e messàgge collegate a 'u condeste fotografeche Uicchi Ame le Monuminde",
+	'wlm-no-contest-year' => "Non ge stè 'nu congorse Uicchi Ame le Monuminde jndr'à $1.",
+	'wlm-no-url-bad-country' => "Non ge putime avè 'u site web pa combetizione locale. $1 non g'è 'nu codece de paese valide.",
+	'wlm-country-not-given' => "Tu è abbesògne de dà 'nu codece de nazione.",
+	'wlm-country-not-participating-year' => '«$1» non ge ste partecipe a Uicchi Ame le Monuminde $2',
 	'wlm-sidebar-portlet' => 'Otre naziune',
 	'wlm-international-contest' => "'Ndernazionale",
 	'wlm-text-contact' => 'Condatte',
@@ -933,6 +938,10 @@ $messages['roa-tara'] = array(
 	'wlm-text-monuments' => 'Monuminde',
 	'wlm-text-news' => 'Nuvetà',
 	'wlm-text-participate' => 'Partecipe!',
+	'wlm-text-prizes' => 'Premie',
+	'wlm-text-rules' => 'Regole',
+	'wlm-text-sponsors' => 'Sponsor',
+	'wlm-text-uploading' => 'Stoche a careche',
 );
 
 /** Russian (русский)
