@@ -903,6 +903,8 @@ $messages['pt-br'] = array(
  * @author Stelistcristi
  */
 $messages['ro'] = array(
+	'wlm-no-contest-year' => 'Nu a existat nici un concurs Wiki Loves Monument contest în $1.',
+	'wlm-country-not-given' => 'Trebuie să furnizați un cod de țară.',
 	'wlm-sidebar-portlet' => 'Alte țări',
 	'wlm-international-contest' => 'Internațional',
 	'wlm-text-contact' => 'Contact',
