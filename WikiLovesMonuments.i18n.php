@@ -995,6 +995,31 @@ $messages['si'] = array(
 	'wlm-text-uploading' => 'උඩුගත කෙරෙමින් පවතී',
 );
 
+/** Slovak (slovenčina)
+ * @author Sudo77(new)
+ */
+$messages['sk'] = array(
+	'wlm-extension-desc' => 'Pridáva informácie a správy súvisiace s fotografickou súťažou Wiki miluje pamiatky',
+	'wlm-no-contest-year' => 'V roku $1 súťaž Wiki miluje pamiatky neprebiehala.',
+	'wlm-no-url-bad-country' => 'Nepodarilo sa nájsť súťažný web pre danú lokalitu. $1 nie je platný kód krajiny.',
+	'wlm-country-not-given' => 'Musíte zadať kód krajiny.',
+	'wlm-country-not-participating-year' => '„$1“ nie je účastníkom Wiki miluje pamiatky $2',
+	'wlm-sidebar-portlet' => 'Ostatné krajiny',
+	'wlm-international-contest' => 'Medzinárodné',
+	'wlm-text-contact' => 'Kontakt',
+	'wlm-text-contest' => 'Súťaž',
+	'wlm-text-donate' => 'Podporte nás',
+	'wlm-text-faq' => 'Často kladené otázky',
+	'wlm-text-jury' => 'Porota',
+	'wlm-text-monuments' => 'Pamiatky',
+	'wlm-text-news' => 'Novinky',
+	'wlm-text-participate' => 'Zapojte sa!',
+	'wlm-text-prizes' => 'Ceny',
+	'wlm-text-rules' => 'Pravidlá',
+	'wlm-text-sponsors' => 'Sponzori',
+	'wlm-text-uploading' => 'Nahrávanie',
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Bebauautu
  */
