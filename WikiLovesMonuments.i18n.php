@@ -1156,11 +1156,21 @@ $messages['uk'] = array(
 );
 
 /** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
  * @author පසිඳු කාවින්ද
  */
 $messages['vi'] = array(
+	'wlm-sidebar-portlet' => 'Quốc gia khác',
+	'wlm-international-contest' => 'Quốc tế',
 	'wlm-text-contact' => 'Liên lạc',
+	'wlm-text-donate' => 'Quyên góp',
+	'wlm-text-faq' => 'Hỏi đáp',
 	'wlm-text-news' => 'Tin tức',
+	'wlm-text-participate' => 'Tham gia!',
+	'wlm-text-prizes' => 'Giải thưởng',
+	'wlm-text-rules' => 'Quy tắc',
+	'wlm-text-sponsors' => 'Nhà tài trợ',
+	'wlm-text-uploading' => 'Tải lên',
 );
 
 /** Simplified Chinese (中文（简体）‎)
