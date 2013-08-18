@@ -903,8 +903,11 @@ $messages['pt-br'] = array(
  * @author Stelistcristi
  */
 $messages['ro'] = array(
+	'wlm-extension-desc' => 'Adaugă informații și mesaje referitoare la concursul fotografic Wiki Loves Monuments',
 	'wlm-no-contest-year' => 'Nu a existat nici un concurs Wiki Loves Monument contest în $1.',
+	'wlm-no-url-bad-country' => 'Nu am putut afișa site-ul web al competiției locale. $1 nu este un cod de țară valid.',
 	'wlm-country-not-given' => 'Trebuie să furnizați un cod de țară.',
+	'wlm-country-not-participating-year' => '„$1” nu participă la Wiki Loves Monuments $2',
 	'wlm-sidebar-portlet' => 'Alte țări',
 	'wlm-international-contest' => 'Internațional',
 	'wlm-text-contact' => 'Contact',
