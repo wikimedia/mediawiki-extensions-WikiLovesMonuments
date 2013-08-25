@@ -921,6 +921,18 @@ $messages['ps'] = array(
 $messages['pt-br'] = array(
 	'wlm-sidebar-portlet' => 'Outros países',
 	'wlm-international-contest' => 'Internacional',
+	'wlm-text-contact' => 'Contato',
+	'wlm-text-contest' => 'Concurso',
+	'wlm-text-donate' => 'Doar',
+	'wlm-text-faq' => 'Perguntas frequentes',
+	'wlm-text-jury' => 'Jurado',
+	'wlm-text-monuments' => 'Monumentos',
+	'wlm-text-news' => 'Notícias',
+	'wlm-text-participate' => 'Participe!',
+	'wlm-text-prizes' => 'Prêmios',
+	'wlm-text-rules' => 'Regras',
+	'wlm-text-sponsors' => 'Patrocinadores',
+	'wlm-text-uploading' => 'Enviando',
 );
 
 /** Romanian (română)
