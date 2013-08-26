@@ -41,7 +41,11 @@ $messages['qqq'] = array(
 	'wlm-extension-desc' => '{{desc|name=Wiki Loves Monuments|url=http://www.mediawiki.org/wiki/Extension:WikiLovesMonuments}}',
 	'wlm-no-contest-year' => 'Error message given when WLM parser functions get passed a parameter which is not a year in which there was (or is planned) a WLM edition. Parameters:
 * $1 is a year.',
-	'wlm-no-url-bad-country' => 'Error message given when {{#wlm-country-website: }} is given something that is not a country code.',
+	'wlm-no-url-bad-country' => 'Error message given when {{#wlm-country-website: }} is given something that is not a country code.
+
+Parameters:
+* $1 - invalid country code. Valid country codes are:
+** int, eu, ad, ar, at, by, be, ca, cl, co, cz, dk, ee, fr, gh, de, hu, in, il, it, ke, li, lu, mx, nl, no, pa, ph, pl, pt, ro, ru, rs, sk, za, es, se, ch, ua, us',
 	'wlm-country-not-given' => 'Error message given when {{#wlm-is-running: }} is not given a country code.',
 	'wlm-country-not-participating-year' => "Error message given when the country code given does not match the WLM edition.
 It is recommended to use a neutral verb time when possible. Note that this could happen for:
@@ -564,7 +568,7 @@ $messages['he'] = array(
 	'wlm-extension-desc' => 'הוספת מידע והודעות בנושא תחרות ויקי אוהבת אתרי מורשת',
 	'wlm-no-contest-year' => 'אין תחרות ויקי אוהבת אתרי מורשת ב־$1',
 	'wlm-no-url-bad-country' => 'לא הצלחנו להשיג את האתר של התחרות המקומית. $1 הוא לא קוד מדינה תקין.',
-	'wlm-country-not-given' => 'יש לציין קוד מדיונה.',
+	'wlm-country-not-given' => 'יש לציין קוד מדינה.',
 	'wlm-country-not-participating-year' => '$1 אינה משתתפת בתחרות ויקי אוהבת אתרי מורשת $2',
 	'wlm-sidebar-portlet' => 'מדינות אחרות',
 	'wlm-international-contest' => 'בין־לאומית',
