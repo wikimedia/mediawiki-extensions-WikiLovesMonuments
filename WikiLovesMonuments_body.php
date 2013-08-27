@@ -2,7 +2,7 @@
 
 class WikiLovesMonuments {
 	/* Active WLM edition, either the last/running edition or in preparation */
-	const activeEdition = 2012;
+	const activeEdition = 2013;
 
 	/* const */ static $countries = array(
 		2010 => array( 'nl'	),
@@ -64,7 +64,57 @@ class WikiLovesMonuments {
 				'ch', // Switzerland
 				'ua', // Ukraine
 				'us', // United States
-			)
+			),
+
+		2013 => array(
+				'dz', // Algeria
+				'ad', // Andorra
+				'aq', // Antarctica
+				'ar', // Argentina
+				'am', // Armenia
+				'aw', // Aruba
+				'at', // Austria
+				'be', // Belgium
+				'bo', // Bolivia
+				'ca', // Canada
+				'cl', // Chile
+				'cn', // China
+				'co', // Colombia
+				'cz', // Czech Republic
+				'eg', // Egypt
+				'sv', // El Salvador
+				'ee', // Estonia
+				'fr', // France
+				'de', // Germany
+				'hk', // Hong Kong
+				'hu', // Hungary
+				'in', // India
+				'il', // Israel
+				'it', // Italy
+				'jo', // Jordan
+				'lu', // Luxembourg
+				'mx', // Mexico
+				'nl', // Netherlands
+				'no', // Norway
+				'pa', // Panama
+				'ph', // Philippines
+				'pl', // Poland
+				'ro', // Romania
+				'rs', // Serbia
+				'sk', // Slovakia
+				'za', // South Africa
+				'es', // Spain
+				'se', // Sweden
+				'ch', // Switzerland
+				'sy', // Syria
+				'tw', // Taiwan
+				'tn', // Tunisia
+				'ua', // Ukraine
+				'gb', // United Kingdom
+				'us', // United States
+				'uy', // Uruguay
+				've', // Venezuela
+			),
 	);
 
 	/**
@@ -138,6 +188,39 @@ class WikiLovesMonuments {
 			'pa' => array( 'from' => '20120901050000', 'to' => '20121001045959' ),
 			'us' => array( 'from' => '20120901100100', 'to' => '20121001100059' ),
 			'il' => array( 'from' => '20120913210000', 'to' => '20121014205959' ),
+		),
+		2013 => array(
+			'default' => array( 'from' => '20130831220000', 'to' => '20130930215959' ),
+			'dz' => array( 'from' => '20130831230000', 'to' => '20130930225959' ),
+			'aq' => array( 'from' => '20130901000000', 'to' => '20130930235959' ),
+			'ar' => array( 'from' => '20130901030000', 'to' => '20131001025959' ),
+			'am' => array( 'from' => '20130831200000', 'to' => '20130930195959' ),
+			'aw' => array( 'from' => '20130831200000', 'to' => '20130930195959' ),
+			'bo' => array( 'from' => '20130901040000', 'to' => '20131001035959' ),
+			'ca' => array( 'from' => '20130901023000', 'to' => '20131001065959' ),
+			'cl' => array( 'from' => '20130901040000', 'to' => '20131001055959' ),
+			'cl' => array( 'from' => '20130901040000', 'to' => '20131001055959' ),
+			'cn' => array( 'from' => '20130901040000', 'to' => '20131001055959' ),
+			'co' => array( 'from' => '20130901050000', 'to' => '20131001045959' ),
+			'sv' => array( 'from' => '20130901060000', 'to' => '20131001055959' ),
+			'ee' => array( 'from' => '20130831210000', 'to' => '20130930205959' ),
+			'hk' => array( 'from' => '20130831210000', 'to' => '20130930205959' ),
+			'in' => array( 'from' => '20130831183000', 'to' => '20130930182959' ),
+			'il' => array( 'from' => '20130914210000', 'to' => '20131015205959' ),
+			'mx' => array( 'from' => '20130901050000', 'to' => '20131001065959' ),
+			'pa' => array( 'from' => '20130901050000', 'to' => '20131001045959' ),
+			'ph' => array( 'from' => '20130831160000', 'to' => '20130930155959' ),
+			'ro' => array( 'from' => '20130831160000', 'to' => '20130930155959' ),
+			'es' => array( 'to' => '20130930225959' ),
+			'sy' => array( 'from' => '20130831210000', 'to' => '20130930205959' ),
+			'tw' => array( 'from' => '20130831160000', 'to' => '20130930155959' ),
+			'tn' => array( 'from' => '20130831230000', 'to' => '20130930225959' ),
+			'ua' => array( 'from' => '20130831210000', 'to' => '20130930205959' ),
+			'uk' => array( 'from' => '20130831230000', 'to' => '20130930225959' ),
+			'us' => array( 'from' => '20130901040100', 'to' => '20131001095959' ),
+			'uy' => array( 'from' => '20130901030000', 'to' => '20131001025959' ),
+			've' => array( 'from' => '20130901043000', 'to' => '20131001042959' ),
+
 		),
 	);
 
