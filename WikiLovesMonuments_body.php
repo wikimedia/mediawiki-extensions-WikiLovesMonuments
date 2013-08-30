@@ -102,6 +102,7 @@ class WikiLovesMonuments {
 				'ph', // Philippines
 				'pl', // Poland
 				'ro', // Romania
+				'ru', // Russia
 				'rs', // Serbia
 				'sk', // Slovakia
 				'za', // South Africa
@@ -110,6 +111,7 @@ class WikiLovesMonuments {
 				'ch', // Switzerland
 				'sy', // Syria
 				'tw', // Taiwan
+				'th', // Thailand
 				'tn', // Tunisia
 				'ua', // Ukraine
 				'gb', // United Kingdom
