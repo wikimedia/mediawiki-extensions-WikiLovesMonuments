@@ -410,7 +410,7 @@ class WikiLovesMonuments {
 		$country = $countries[ strtoupper( $countryCode ) ];
 
 		// There's an article in front of the country name:
-		static $theCountries = array( 'cz', 'nl', 'ph', 'us' );
+		static $theCountries = array( 'cz', 'gb', 'nl', 'ph', 'us' );
 
 		if ( in_array( $countryCode, $theCountries ) )
 			$country = "the $country";
