@@ -74,8 +74,10 @@ class WikiLovesMonuments {
 				'am', // Armenia
 				'aw', // Aruba
 				'at', // Austria
+				'az', // Azerbaijan
 				'be', // Belgium
 				'bo', // Bolivia
+				'cm', // Cameroon
 				'ca', // Canada
 				'cl', // Chile
 				'cn', // China
@@ -125,43 +127,62 @@ class WikiLovesMonuments {
 		'eu' => 'http://www.wikilovesmonuments.eu/',
 
 		'ad' => 'http://www.wikilovesmonuments.cat/', // Andorra and Catalan areas WP
+		'am' => 'http://www.wikilovesmonuments.am/', // Armenia WP
+		'aq' => 'http://www.wikilovesmonuments.aq/', // Antarctica WP
 		'ar' => 'http://wikilovesmonuments.com.ar', // Argentina WP
 		'at' => 'http://wikilovesmonuments.at/', // Austria WP
-		'by' => 'http://wikilovesmonuments.by/', // Belarus WP
+		'aw' => 'http://www.wlmaruba.com/', // Aruba WP
+		'az' => 'http://az.wikipedia.org/wiki/Vikipediya:Viki_Abid%C9%99l%C9%99ri_Sevir_2013', // Azerbaijan
 		'be' => 'http://www.wikilovesmonuments.be/', // Belgium MW
+		'bo' => 'http://wlm.wikimedia.org.bo/', // Bolivia WP
+		'by' => 'http://wikilovesmonuments.by/', // Belarus WP
 		'ca' => 'http://wikimedia.ca/wlmca/', // Canada MW
 		'cl' => 'http://www.wikilovesmonuments.cl/', // Chile WP
+		'cm' => 'http://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2013_in_Cameroon', // Cameroon
+		'cn' => 'http://aiguji.org/', // China WP
 		'co' => 'http://www.wikilovesmonuments.co/', // Colombia WP
 		'cz' => 'http://www.wikilovesmonuments.cz/', // Czech Republic WP
+		'de' => 'http://www.wikilovesmonuments.de/de/', // Germany (redirected from http://wikilovesmonuments.de/)
 		'dk' => 'http://da.wikipedia.org/wiki/Wikipedia:Wiki_Loves_Monuments_2012', // Denmark (redirected from http://www.wikilovesmonuments.dk/)
+		'dz' => 'http://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2013_in_Algeria',
 		'ee' => 'http://wikilovesmonuments.ee/', // Estonia
+		'eg' => 'http://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2013_in_Egypt', // Egypt
 		'fr' => 'http://wikilovesmonuments.fr/', // France WP
+		'gb' => 'http://www.wikilovesmonuments.org.uk/', /// United Kingdom WP
 		'gh' => false, // Ghana
-		'de' => 'http://de.wikipedia.org/wiki/Wikipedia:Wiki_Loves_Monuments_2012', // Germany (redirected from http://wikilovesmonuments.de/)
+		'hk' => 'http://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2013_in_Hong_Kong', // Hong Kong
 		'hu' => 'http://www.wikilovesmonuments.hu/', // Hungary custom
 		'in' => 'http://www.wikilovesmonuments.in/', // India WP
 		'il' => 'http://www.wlm.org.il/', // Israel WP
 		'it' => 'http://www.wikilovesmonuments.it/', // Italy WP
+		'jo' => 'http://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2013_in_Jordan', // Jordan
 		'ke' => 'http://en.wikipedia.org/wiki/Wikipedia:Wiki_Loves_Monuments_Kenya', // Kenya
 		'li' => false, // Liechtenstein
 		'lu' => 'http://www.wikilovesmonuments.be/', // Luxembourg MW
 		'mx' => 'http://wikilovesmonuments.mx/', // Mexico WP
 		'nl' => 'http://www.wikilovesmonuments.nl/', // Netherlands WP
-		'no' => false, // Norway
+		'no' => 'http://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2013_in_Norway', // Norway, http://wikilovesmonuments.no/ is a WP Hello World
 		'pa' => 'http://www.wlmpanama.org.pa/', // Panama WP
 		'ph' => 'http://www.wikilovesmonuments.ph/', // Philippines WP
 		'pl' => 'http://wikizabytki.pl/', // Poland WP
 		'pt' => 'http://www.wikilovesmonuments.org.pt/', // Portugal custom+MW
 		'ro' => 'http://wikilovesmonuments.ro/', // Romania WP
 		'ru' => 'http://wikilovesmonuments.ru/', // Russia WP
-		'rs' => 'http://wlm.wikimedia.rs/pocetna.php', // Serbia custom
+		'rs' => 'http://wlm.rs/', // Serbia custom
 		'sk' => 'http://sk.wikipedia.org/wiki/Wikip%C3%A9dia:WikiProjekt_Wiki_miluje_pamiatky', // Slovakia
-		'za' => 'http://wikilovesmonuments.co.za/', // South Africa MW
+		'sv' => 'http://wikilovesmonumentselsalvador.org/', // El Salvador
+		'sy' => 'http://wikilovesmonuments-sy.org/', // Syria WP
+		'th' => 'https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2013_in_Thailand/th', // Thailand - Redirect from http://th.wikilovesmonuments.org/
+		'tn' => 'http://www.wikilovesmonuments.tn/', // Tunisia WP
+		'tw' => 'http://www.wikilovesmonuments.tw/', // Taiwan custom
 		'es' => 'http://www.wikilm.es/', // Spain MW
 		'se' => 'http://wikilovesmonuments.se/', // Sweden WP
 		'ch' => 'http://wikilovesmonuments.ch/', // Switzerland WP
 		'ua' => 'http://wlm.org.ua/', // Ukraine WP
 		'us' => 'http://wikilovesmonuments.us/', // United States WP
+		'uy' => 'http://www.wikilovesmonuments.uy/', // Uruguay Drupal
+		've' => 'http://wlm.wikimedia.org.ve/', // Venezuela WP
+		'za' => 'http://wikilovesmonuments.co.za/', // South Africa MW
 	);
 
 	/**
