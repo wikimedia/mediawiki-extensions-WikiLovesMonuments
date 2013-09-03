@@ -171,7 +171,7 @@ class WikiLovesMonuments {
 		'ro' => 'http://wikilovesmonuments.ro/', // Romania WP
 		'ru' => 'http://wikilovesmonuments.ru/', // Russia WP
 		'rs' => 'http://wlm.rs/', // Serbia custom
-		'sk' => 'http://sk.wikipedia.org/wiki/Wikip%C3%A9dia:WikiProjekt_Wiki_miluje_pamiatky', // Slovakia
+		'sk' => 'http://wikilovesmonuments.sk/', // Slovakia
 		'sv' => 'http://wikilovesmonumentselsalvador.org/', // El Salvador
 		'sy' => 'http://wikilovesmonuments-sy.org/', // Syria WP
 		'th' => 'https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2013_in_Thailand/th', // Thailand - Redirect from http://th.wikilovesmonuments.org/
