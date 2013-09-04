@@ -98,6 +98,7 @@ class WikiLovesMonuments {
 				'mx', // Mexico
 				'nl', // Netherlands
 				'no', // Norway
+				'np', // Nepal
 				'pa', // Panama
 				'ph', // Philippines
 				'pl', // Poland
@@ -164,6 +165,7 @@ class WikiLovesMonuments {
 		'mx' => 'http://wikilovesmonuments.mx/', // Mexico WP
 		'nl' => 'http://www.wikilovesmonuments.nl/', // Netherlands WP
 		'no' => 'http://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2013_in_Norway', // Norway, http://wikilovesmonuments.no/ is a WP Hello World
+		'np' => 'https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2013_in_Nepal', // Nepal
 		'pa' => 'http://www.wlmpanama.org.pa/', // Panama WP
 		'ph' => 'http://www.wikilovesmonuments.ph/', // Philippines WP
 		'pl' => 'http://wikizabytki.pl/', // Poland WP
@@ -232,6 +234,7 @@ class WikiLovesMonuments {
 			'in' => array( 'from' => '20130831183000', 'to' => '20130930182959' ),
 			'il' => array( 'from' => '20130914210000', 'to' => '20131015205959' ),
 			'mx' => array( 'from' => '20130901050000', 'to' => '20131001065959' ),
+			'np' => array( 'from' => '20130831181500', 'to' => '20130930181459' ),
 			'pa' => array( 'from' => '20130901050000', 'to' => '20131001045959' ),
 			'ph' => array( 'from' => '20130831160000', 'to' => '20130930155959' ),
 			'ro' => array( 'from' => '20130831160000', 'to' => '20130930155959' ),
