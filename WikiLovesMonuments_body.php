@@ -77,6 +77,7 @@ class WikiLovesMonuments {
 				'az', // Azerbaijan
 				'be', // Belgium
 				'bo', // Bolivia
+				'by', // Belarus
 				'cm', // Cameroon
 				'ca', // Canada
 				'cl', // Chile
@@ -223,6 +224,7 @@ class WikiLovesMonuments {
 			'aw' => array( 'from' => '20130831200000', 'to' => '20130930195959' ),
 			'az' => array( 'from' => '20130831190000', 'to' => '20130930185959' ),
 			'bo' => array( 'from' => '20130901040000', 'to' => '20131001035959' ),
+			'by' => array( 'from' => '20120831210000', 'to' => '20120930205959' ),
 			'ca' => array( 'from' => '20130901023000', 'to' => '20131001065959' ),
 			'cl' => array( 'from' => '20130901040000', 'to' => '20131001055959' ),
 			'cl' => array( 'from' => '20130901040000', 'to' => '20131001055959' ),
