@@ -415,7 +415,16 @@ class WikiLovesMonuments {
 		if ( !isset( $countries[ strtoupper( $countryCode ) ] ) )
 			return false;
 
-		$country = $countries[ strtoupper( $countryCode ) ];
+		switch ( $countryCode ) {
+			case 'gb':
+				$country = 'United Kingdom';
+				break;
+			case 'us':
+				$country = 'United States';
+				break;
+			default:
+				$country = $countries[ strtoupper( $countryCode ) ];
+		}
 
 		// There's an article in front of the country name:
 		static $theCountries = array( 'cz', 'gb', 'nl', 'ph', 'us' );
