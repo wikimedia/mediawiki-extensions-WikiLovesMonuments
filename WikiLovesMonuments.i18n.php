@@ -288,13 +288,14 @@ $messages['cs'] = array(
 
 /** Welsh (Cymraeg)
  * @author Lloffiwr
+ * @author Robin Owain
  */
 $messages['cy'] = array(
 	'wlm-extension-desc' => 'Yn ychwanegu negeseuon a gwybodaeth am y gystadleuaeth tynnu lluniau Wiki Loves Monuments',
 	'wlm-no-contest-year' => 'Ni chafwyd cystadleuaeth Wiki Loves Monuments yn $1.',
 	'wlm-no-url-bad-country' => "Nid oeddwn yn gallu cael hyd i wefan gystadlu sy'n cyfateb i'r côd a roddwyd. Nid yw $1 yn gôd gwlad dilys.",
 	'wlm-country-not-given' => 'Mae angen i chi roi côd y wlad.',
-	'wlm-country-not-participating-year' => "Nid yw «$1» ymhlith y gwledydd sy'n ran o Wiki Loves Monuments $2",
+	'wlm-country-not-participating-year' => "Nid yw «$1» ymhlith y gwledydd sy'n rhan o Wiki Loves Monuments $2",
 	'wlm-sidebar-portlet' => 'Gwledydd eraill',
 	'wlm-international-contest' => 'Rhyngwladol',
 	'wlm-text-contact' => 'Cysylltu',
