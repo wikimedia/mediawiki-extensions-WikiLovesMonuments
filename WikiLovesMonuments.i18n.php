@@ -739,7 +739,7 @@ $messages['ku-latn'] = array(
 	'wlm-international-contest' => 'Navneteweyî',
 );
 
-/** Kirghiz (Кыргызча)
+/** Kyrgyz (Кыргызча)
  * @author Growingup
  */
 $messages['ky'] = array(
