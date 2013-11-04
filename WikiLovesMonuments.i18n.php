@@ -372,6 +372,7 @@ $messages['de-formal'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Gorizon
  * @author Mirzali
  */
 $messages['diq'] = array(
@@ -379,7 +380,7 @@ $messages['diq'] = array(
 	'wlm-international-contest' => 'Beynelmılel',
 	'wlm-text-contact' => 'İrtıbat',
 	'wlm-text-contest' => 'Mısabeqa',
-	'wlm-text-donate' => 'Beğş',
+	'wlm-text-donate' => 'Bèc',
 	'wlm-text-faq' => 'PZP',
 	'wlm-text-jury' => 'Curi',
 	'wlm-text-monuments' => 'Ziyarıki',
