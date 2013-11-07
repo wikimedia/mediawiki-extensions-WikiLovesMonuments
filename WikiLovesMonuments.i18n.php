@@ -60,12 +60,14 @@ However, you don't need to prepare for really off year values, since {{msg-mw|wl
 Parameters:
 * $1 is the country
 * $2 is the year",
-	'wlm-sidebar-portlet' => 'Title of the portlet listing on the sidebar the websites for the rest of countries.',
+	'wlm-sidebar-portlet' => 'Title of the portlet listing on the sidebar the websites for the rest of countries.
+{{Identical|Other country}}',
 	'wlm-international-contest' => 'Naming of the link to the website of the international contest, shown in the portlet.',
 	'wlm-text-contact' => 'Caption for a page about contacting the (local) organization.',
 	'wlm-text-contest' => 'Contest, competition. What Wiki Loves Monuments is. Suitable as caption for a page talking about Wiki Loves Monuments.',
 	'wlm-text-donate' => 'Caption for a page about donating to the chapter.',
-	'wlm-text-faq' => 'Text suitable as caption for a link leading to a list of Questions and answers (Frequently Asked Questions) about the Wiki Loves Monuments contest',
+	'wlm-text-faq' => 'Text suitable as caption for a link leading to a list of Questions and answers (Frequently Asked Questions) about the Wiki Loves Monuments contest.
+{{Identical|FAQ}}',
 	'wlm-text-jury' => 'Jury, people who will decide which photos are the best. Suitable as caption for a page talking about the local jury, presenting it, explaining how the best photos are selected or what kind of people will decide.',
 	'wlm-text-monuments' => 'Monuments, what you photograph in Wiki Loves Monuments. Suitable as caption for a page talking about which monuments are eligible, or with the monument lists.',
 	'wlm-text-news' => 'News, current events. Suitable as a caption for a page/blog giving the latest information about the contest.',
