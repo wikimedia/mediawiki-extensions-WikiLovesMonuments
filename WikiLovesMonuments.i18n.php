@@ -690,6 +690,13 @@ $messages['ja'] = array(
 	'wlm-text-uploading' => 'アップロード中',
 );
 
+/** Lojban (Lojban)
+ * @author Gleki
+ */
+$messages['jbo'] = array(
+	'wlm-text-faq' => 'lo cafne se reisku',
+);
+
 /** Georgian (ქართული)
  * @author David1010
  */
