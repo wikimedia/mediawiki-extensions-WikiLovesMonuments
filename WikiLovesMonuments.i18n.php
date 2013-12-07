@@ -261,7 +261,7 @@ $messages['ckb'] = array(
 	'wlm-text-faq' => 'پرسیارە دووپاتکراوەکان',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Chmee2
  * @author Limojoe
  * @author Mormegil
