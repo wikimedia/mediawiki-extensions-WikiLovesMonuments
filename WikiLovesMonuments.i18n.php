@@ -482,6 +482,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Mjbmr
+ * @author Reza1615
  */
 $messages['fa'] = array(
 	'wlm-sidebar-portlet' => 'دیگر کشورها',
@@ -491,6 +492,7 @@ $messages['fa'] = array(
 	'wlm-text-faq' => 'پرسش‌های رایج',
 	'wlm-text-news' => 'اخبار',
 	'wlm-text-rules' => 'قوانین',
+	'wlm-text-uploading' => 'در حال بارگذاری',
 );
 
 /** Finnish (suomi)
