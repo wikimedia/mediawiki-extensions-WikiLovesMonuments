@@ -481,17 +481,25 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  * @author Reza1615
  */
 $messages['fa'] = array(
+	'wlm-country-not-given' => 'شما نیاز به ارائهٔ کد کشور دارید.',
 	'wlm-sidebar-portlet' => 'دیگر کشورها',
 	'wlm-international-contest' => 'بین المللی',
 	'wlm-text-contact' => 'تماس',
+	'wlm-text-contest' => 'مشاجره',
 	'wlm-text-donate' => 'کمک مالی',
 	'wlm-text-faq' => 'پرسش‌های رایج',
+	'wlm-text-jury' => 'هیأت داوران',
+	'wlm-text-monuments' => 'بناهای تاریخی',
 	'wlm-text-news' => 'اخبار',
+	'wlm-text-participate' => 'شرکت کردن!',
+	'wlm-text-prizes' => 'جوایز',
 	'wlm-text-rules' => 'قوانین',
+	'wlm-text-sponsors' => 'حامیان',
 	'wlm-text-uploading' => 'در حال بارگذاری',
 );
 
