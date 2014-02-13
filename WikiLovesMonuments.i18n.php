@@ -255,6 +255,13 @@ $messages['ca'] = array(
 	'wlm-text-uploading' => "S'està carregant",
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'wlm-text-participate' => 'Дакъалаца!',
+);
+
 /** Sorani Kurdish (کوردی)
  * @author Calak
  */
