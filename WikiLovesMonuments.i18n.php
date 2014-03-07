@@ -493,7 +493,11 @@ $messages['eu'] = array(
  * @author Reza1615
  */
 $messages['fa'] = array(
+	'wlm-extension-desc' => 'افزودن اطلاعات و پیام‌های مربوط به  اینکه ویکی آثار مسابقه عکاسی را دوست دارد',
+	'wlm-no-contest-year' => 'هیچ ویکی نیست که آثار مسابقه را در $1 دوست نداشته باشد.',
+	'wlm-no-url-bad-country' => 'ما نتوانستیم وب‌سایتی برای رقابت‌های داخلی به دست آوریم. $1 یک کد کشور معتبر نیست.',
 	'wlm-country-not-given' => 'شما نیاز به ارائهٔ کد کشور دارید.',
+	'wlm-country-not-participating-year' => '«$1» در ویکی که آثار را دوست دارد $2، شرکت نمی‌کند',
 	'wlm-sidebar-portlet' => 'دیگر کشورها',
 	'wlm-international-contest' => 'بین المللی',
 	'wlm-text-contact' => 'تماس',
