@@ -2,7 +2,8 @@
     "@metadata": {
         "authors": [
             "Armando-Martin",
-            "Platonides"
+            "Platonides",
+            "Fitoschido"
         ]
     },
     "wlm-extension-desc": "Añade información y traducciones sobre el concurso fotográfico Wiki Loves Monuments",
@@ -15,7 +16,7 @@
     "wlm-text-contact": "Contacto",
     "wlm-text-contest": "Concurso",
     "wlm-text-donate": "Donar",
-    "wlm-text-faq": "FAQ",
+    "wlm-text-faq": "P+F",
     "wlm-text-jury": "Jurado",
     "wlm-text-monuments": "Monumentos",
     "wlm-text-news": "Novedades",
