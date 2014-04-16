@@ -1,21 +1,21 @@
 {
-    "@metadata": {
-        "authors": [
-            "Meno25"
-        ]
-    },
-    "wlm-sidebar-portlet": "دول أخرى",
-    "wlm-international-contest": "دولي",
-    "wlm-text-contact": "اتصال",
-    "wlm-text-contest": "مسابقة",
-    "wlm-text-donate": "تبرع",
-    "wlm-text-faq": "الأسئلة المتكررة",
-    "wlm-text-jury": "محلف",
-    "wlm-text-monuments": "آثار",
-    "wlm-text-news": "أخبار",
-    "wlm-text-participate": "مشاركة!",
-    "wlm-text-prizes": "الجوائز",
-    "wlm-text-rules": "القواعد",
-    "wlm-text-sponsors": "الرعاة",
-    "wlm-text-uploading": "يرفع"
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"wlm-sidebar-portlet": "دول أخرى",
+	"wlm-international-contest": "دولي",
+	"wlm-text-contact": "اتصال",
+	"wlm-text-contest": "مسابقة",
+	"wlm-text-donate": "تبرع",
+	"wlm-text-faq": "الأسئلة المتكررة",
+	"wlm-text-jury": "محلف",
+	"wlm-text-monuments": "آثار",
+	"wlm-text-news": "أخبار",
+	"wlm-text-participate": "مشاركة!",
+	"wlm-text-prizes": "الجوائز",
+	"wlm-text-rules": "القواعد",
+	"wlm-text-sponsors": "الرعاة",
+	"wlm-text-uploading": "يرفع"
 }
