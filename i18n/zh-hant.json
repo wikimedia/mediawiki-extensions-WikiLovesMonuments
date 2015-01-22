@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Justincheng12345",
-			"Shirayuki"
+			"Shirayuki",
+			"Liuxinyu970226"
 		]
 	},
 	"wlm-extension-desc": "添加有關維基愛古跡攝影大賽的訊息",
@@ -15,7 +16,7 @@
 	"wlm-text-contact": "聯繫",
 	"wlm-text-contest": "比賽",
 	"wlm-text-donate": "捐助",
-	"wlm-text-faq": "常見問題解答",
+	"wlm-text-faq": "常見問題",
 	"wlm-text-jury": "評審",
 	"wlm-text-monuments": "古蹟",
 	"wlm-text-news": "新聞",
