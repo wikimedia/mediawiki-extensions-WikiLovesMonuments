@@ -3,10 +3,11 @@
 		"authors": [
 			"Armando-Martin",
 			"Platonides",
-			"Fitoschido"
+			"Fitoschido",
+			"Macofe"
 		]
 	},
-	"wlm-extension-desc": "Añade información y traducciones sobre el concurso fotográfico Wiki Loves Monuments",
+	"wlm-extension-desc": "Añade información y mensajes relacionados con el concurso fotográfico Wiki Loves Monuments",
 	"wlm-no-contest-year": "No hubo un concurso de Wiki Loves Monument en $1.",
 	"wlm-no-url-bad-country": "No se pudo encontrar la web del concurso local. No hay un país con código $1.",
 	"wlm-country-not-given": "Debes proporcionar un código de país.",
