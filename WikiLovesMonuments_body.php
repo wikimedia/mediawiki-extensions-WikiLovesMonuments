@@ -352,7 +352,7 @@ class WikiLovesMonuments {
 
 		$countries = self::countries( WikiLovesMonuments::activeEdition, $wgLang->getCode() );
 		asort( $countries ); // Sort by local name
-		$countries = array( 'int' => wfMsg( 'wlm-international-contest' ),  ) + $countries;
+		$countries = array( 'int' => $skin->msg( 'wlm-international-contest' )->text(),  ) + $countries;
 
 		$wlmSidebar = "			<ul>";
 		foreach ( $countries as $countryCode => $name ) {
