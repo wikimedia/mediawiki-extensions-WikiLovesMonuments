@@ -3,13 +3,14 @@
 		"authors": [
 			"Shirayuki",
 			"Shizhao",
-			"Yfdyh000"
+			"Yfdyh000",
+			"Liuxinyu970226"
 		]
 	},
 	"wlm-extension-desc": "添加有关维基爱古迹摄影大赛的信息和消息",
 	"wlm-no-contest-year": "$1年没有维基爱古迹大赛。",
 	"wlm-no-url-bad-country": "我们没有本地竞赛的网站。$1不是一个有效的国家代码。",
-	"wlm-country-not-given": "你必须提供一个国家代码。",
+	"wlm-country-not-given": "您需要提供一个国家代码。",
 	"wlm-country-not-participating-year": "«$1»没有参与$2年维基爱古迹活动",
 	"wlm-sidebar-portlet": "其他国家",
 	"wlm-international-contest": "国际",
