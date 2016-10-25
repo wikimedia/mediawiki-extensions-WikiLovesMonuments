@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bebauautu"
+			"Bebauautu",
+			"Сербијана"
 		]
 	},
 	"wlm-extension-desc": "Додаје информације и поруке везане за Wiki Loves Monuments фото-конкурс",
@@ -22,5 +23,5 @@
 	"wlm-text-prizes": "Награде",
 	"wlm-text-rules": "Правила",
 	"wlm-text-sponsors": "Спонзори",
-	"wlm-text-uploading": "Слање фотографија"
+	"wlm-text-uploading": "Отпремање"
 }
