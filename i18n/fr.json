@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Erkethan",
-			"Tititou36"
+			"Tititou36",
+			"Urhixidur"
 		]
 	},
 	"wlm-extension-desc": "Ajoute des informations et messages liés au concours photographique Wiki Loves Monuments",
@@ -22,6 +23,6 @@
 	"wlm-text-participate": "Participez !",
 	"wlm-text-prizes": "Prix",
 	"wlm-text-rules": "Règles",
-	"wlm-text-sponsors": "Sponsors",
+	"wlm-text-sponsors": "Commanditaires",
 	"wlm-text-uploading": "Téléversement"
 }
