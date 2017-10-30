@@ -10,7 +10,6 @@ $wgExtensionCredits['parserhook'][] = array(
 
 $wgAutoloadClasses['WikiLovesMonuments'] = dirname( __FILE__ ) . "/WikiLovesMonuments_body.php";
 $wgMessagesDirs['WikiLovesMonuments'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['WikiLovesMonuments'] = dirname( __FILE__ ) . "/WikiLovesMonuments.i18n.php";
 $wgExtensionMessagesFiles['WikiLovesMonumentsMagic'] = dirname( __FILE__ ) . "/WikiLovesMonuments.i18n.magic.php";
 
 $wgResourceModules['ext.WikiLovesMonuments.piwik'] = array(
