@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Bebauautu",
-			"Сербијана"
+			"Сербијана",
+			"Acamicamacaraca"
 		]
 	},
 	"wlm-extension-desc": "Додаје информације и поруке везане за Wiki Loves Monuments фото-конкурс",
 	"wlm-no-contest-year": "Није било Wiki Loves Monuments фото-конкурса у $1. години",
-	"wlm-no-url-bad-country": "Вебсајт локалног такмичења није пронађен. $1 није валидан државни код.",
+	"wlm-no-url-bad-country": "Вебсајт локалног такмичења није пронађен. Државни код „$1” није исправан.",
 	"wlm-country-not-given": "Наведите државни код.",
 	"wlm-country-not-participating-year": "«$1» не учествује у Wiki Loves Monuments $2",
 	"wlm-sidebar-portlet": "Остале земље",
