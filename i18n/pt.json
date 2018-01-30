@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Athena in Wonderland"
 		]
 	},
 	"wlm-extension-desc": "Acrescenta informação e mensagens relacionadas com o concurso fotográfico Wiki Loves Monuments",
 	"wlm-no-contest-year": "Não houve um concurso Wiki Loves Monument em $1.",
-	"wlm-no-url-bad-country": "Não foi possível encontrar o site do concurso local. $1 não é um código de país válido.",
+	"wlm-no-url-bad-country": "Não foi possível encontrar o sítio do concurso local. $1 não é um código de país válido.",
 	"wlm-country-not-given": "Precisa de fornecer um código de país.",
 	"wlm-country-not-participating-year": "«$1» não participa no Wiki Loves Monuments de $2",
 	"wlm-sidebar-portlet": "Outros países",
