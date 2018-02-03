@@ -1,5 +1,22 @@
 <?php
-
+/**
+ * This file is part of Extension:WikiLovesMonuments
+ * Copyright (C) 2012,  Platonides
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
 class WikiLovesMonuments {
 	/* Active WLM edition, either the last/running edition or in preparation */
 	const activeEdition = 2013;
@@ -267,7 +284,7 @@ class WikiLovesMonuments {
 					wfMessage( 'wlm-no-contest-year', $year )->inLanguage( $parser->getFunctionLang() )->plain() .
 					'</strong>';
 		}
-		
+
 		return $parser->getFunctionLang()->listToText( $countries );
 	}
 
@@ -310,7 +327,7 @@ class WikiLovesMonuments {
 				wfMessage( 'wlm-no-contest-year', $year )->inLanguage( $parser->getFunctionLang() )->plain() .
 			 	'</strong>';
 		}
-		
+
 		return $parser->getFunctionLang()->formatNum( count( self::$countries[(int)$year] ) );
 	}
 
