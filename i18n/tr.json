@@ -5,11 +5,11 @@
 			"BaRaN6161 TURK"
 		]
 	},
-	"wlm-extension-desc": "Wiki Loves Anıtları fotoğraf yarışmasıyla ilgili bilgi ve mesajlar ekler",
-	"wlm-no-contest-year": "$1 Wiki Loves Anıtı yarışması yoktu.",
+	"wlm-extension-desc": "Viki Sevgi Anıtları fotoğraf yarışmasıyla ilgili bilgi ve mesajlar ekler",
+	"wlm-no-contest-year": "$1 Viki Sevgi Anıtı yarışması yoktu.",
 	"wlm-no-url-bad-country": "Yerel yarışma için web sitesini alamadık. $1 geçerli bir ülke kodu değil.",
 	"wlm-country-not-given": "Ülke kodu girmeniz gerekiyor.",
-	"wlm-country-not-participating-year": "«$1» Wiki Loves Anıtlarına katılmıyor $2",
+	"wlm-country-not-participating-year": "«$1» Viki Sevgi Anıtlarına katılmıyor $2",
 	"wlm-sidebar-portlet": "Diğer ülkeler",
 	"wlm-international-contest": "Uluslararası",
 	"wlm-text-contact": "İletişim",
