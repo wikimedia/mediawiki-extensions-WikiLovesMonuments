@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bebauautu",
-			"Сербијана",
 			"Acamicamacaraca",
-			"BadDog"
+			"BadDog",
+			"Bebauautu",
+			"Сербијана"
 		]
 	},
 	"wlm-extension-desc": "Додаје информације и поруке везане за Wiki Loves Monuments фото-конкурс",
