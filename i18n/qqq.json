@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
+			"MuratTheTurkish",
 			"Platonides",
 			"Shirayuki",
 			"Siebrand",
@@ -25,6 +26,6 @@
 	"wlm-text-participate": "Text moving the user to participate in the Wiki Loves Monuments contest, preferably some kind of imperative. Suitable as caption for a link to a page explaining how to participate in a few simple steps.\n{{Identical|Participate}}",
 	"wlm-text-prizes": "Prizes, awards, what you will give to the authors of the best photos. Suitable for leading to a page describing them.\n{{Identical|Prize}}",
 	"wlm-text-rules": "Rules, the thing that people must abide by for participating in Wiki Loves Monuments. Caption suitable for a page with a boring list of things that most people won't actually need.\n{{Identical|Rule}}",
-	"wlm-text-sponsors": "Caption suitable for leading to a page about the sponsors/partners of the Wiki Loves Monuments contest.\n{{Identical|Sponsor}}",
+	"wlm-text-sponsors": "Caption suitable for leading to a page about the sponsors/partners of the Wiki Loves Monuments contest.",
 	"wlm-text-uploading": "Text suitable for leading to a page with instructions / explaining how to upload the photos.\n{{Identical|Uploading}}"
 }
