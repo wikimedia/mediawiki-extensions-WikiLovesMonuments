@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Joseph",
 			"Rapsar"
 		]
 	},
@@ -22,6 +23,6 @@
 	"wlm-text-participate": "Katıl!",
 	"wlm-text-prizes": "Ödüller",
 	"wlm-text-rules": "Kurallar",
-	"wlm-text-sponsors": "Sponsorlar",
+	"wlm-text-sponsors": "Destekleyenler",
 	"wlm-text-uploading": "Yükleme"
 }
