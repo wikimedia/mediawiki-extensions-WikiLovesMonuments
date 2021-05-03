@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Eleassar",
 			"Janezdrilc"
 		]
 	},
-	"wlm-text-faq": "Pogosta vprašanja"
+	"wlm-text-faq": "Pogosta vprašanja",
+	"wlm-text-uploading": "Nalaganje"
 }
