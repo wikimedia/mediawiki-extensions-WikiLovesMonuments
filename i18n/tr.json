@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Rapsar"
+			"Rapsar",
+			"Joseph"
 		]
 	},
 	"wlm-extension-desc": "Viki Sevgi Anıtları fotoğraf yarışmasıyla ilgili bilgi ve mesajlar ekler",
@@ -22,6 +23,6 @@
 	"wlm-text-participate": "Katıl!",
 	"wlm-text-prizes": "Ödüller",
 	"wlm-text-rules": "Kurallar",
-	"wlm-text-sponsors": "Sponsorlar",
+	"wlm-text-sponsors": "Destekleyenler",
 	"wlm-text-uploading": "Yükleme"
 }
