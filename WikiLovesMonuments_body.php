@@ -277,15 +277,15 @@ class WikiLovesMonuments {
 	 * @return string
 	 */
 	public static function countriesParserFunction( $parser, $year ) {
-		$countries = self::countries( (int)$year, $parser->getFunctionLang()->getCode(), 'numeric' );
+		$countries = self::countries( (int)$year, $parser->getTargetLanguage()->getCode(), 'numeric' );
 
 		if ( $countries === false ) {
 			return '<strong class="error">' .
-					wfMessage( 'wlm-no-contest-year', $year )->inLanguage( $parser->getFunctionLang() )->plain() .
+					wfMessage( 'wlm-no-contest-year', $year )->inLanguage( $parser->getTargetLanguage() )->plain() .
 					'</strong>';
 		}
 
-		return $parser->getFunctionLang()->listToText( $countries );
+		return $parser->getTargetLanguage()->listToText( $countries );
 	}
 
 	/**
@@ -324,11 +324,11 @@ class WikiLovesMonuments {
 	public static function countryCount( $parser, $year ) {
 		if ( !isset( self::$countries[(int)$year] ) ) {
 			return '<strong class="error">' .
-				wfMessage( 'wlm-no-contest-year', $year )->inLanguage( $parser->getFunctionLang() )->plain() .
+				wfMessage( 'wlm-no-contest-year', $year )->inLanguage( $parser->getTargetLanguage() )->plain() .
 			 	'</strong>';
 		}
 
-		return $parser->getFunctionLang()->formatNum( count( self::$countries[(int)$year] ) );
+		return $parser->getTargetLanguage()->formatNum( count( self::$countries[(int)$year] ) );
 	}
 
 	/**
@@ -406,7 +406,7 @@ class WikiLovesMonuments {
 
 		if ( $url === false ) {
 			return '<strong class="error">' .
-				wfMessage( 'wlm-no-url-bad-country', $countryCode )->inLanguage( $parser->getFunctionLang() )->plain() .
+				wfMessage( 'wlm-no-url-bad-country', $countryCode )->inLanguage( $parser->getTargetLanguage() )->plain() .
 				'</strong>';
 		}
 
@@ -518,7 +518,7 @@ class WikiLovesMonuments {
 
 		if ( !isset( self::$countries[(int)$year] ) ) {
 			return '<strong class="error">' .
-				wfMessage( 'wlm-no-contest-year', $year )->inLanguage( $parser->getFunctionLang() )->plain() .
+				wfMessage( 'wlm-no-contest-year', $year )->inLanguage( $parser->getTargetLanguage() )->plain() .
 				'</strong>';
 		}
 
@@ -529,14 +529,14 @@ class WikiLovesMonuments {
 
 		if ( $countryCode == false ) {
 			return '<strong class="error">' .
-				wfMessage( 'wlm-country-not-given' )->inLanguage( $parser->getFunctionLang() )->plain() .
+				wfMessage( 'wlm-country-not-given' )->inLanguage( $parser->getTargetLanguage() )->plain() .
 				'</strong>';
 		}
 
 		$countryCode = trim( $countryCode );
 		if ( ! in_array( $countryCode, self::$countries[$year] ) ) {
 			return '<strong class="error">' .
-				wfMessage( 'wlm-country-not-participating-year', self::countryName( $countryCode, $parser->getFunctionLang()->getCode(), $countryCode), $year )->inLanguage( $parser->getFunctionLang() )->plain() .
+				wfMessage( 'wlm-country-not-participating-year', self::countryName( $countryCode, $parser->getTargetLanguage()->getCode(), $countryCode), $year )->inLanguage( $parser->getTargetLanguage() )->plain() .
 				'</strong>';
 		}
 
