@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Kalan",
+			"Pacha Tchernof",
 			"Putnik"
 		]
 	},
@@ -15,7 +16,7 @@
 	"wlm-text-contact": "Контактные данные",
 	"wlm-text-contest": "Конкурс",
 	"wlm-text-donate": "Пожертвования",
-	"wlm-text-faq": "Вопросы и ответы",
+	"wlm-text-faq": "ЧЗВ",
 	"wlm-text-jury": "Жюри",
 	"wlm-text-monuments": "Памятники",
 	"wlm-text-news": "Новости",
