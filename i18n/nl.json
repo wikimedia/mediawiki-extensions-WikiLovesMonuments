@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Siebrand"
 		]
 	},
@@ -18,7 +19,7 @@
 	"wlm-text-jury": "Jury",
 	"wlm-text-monuments": "Monumenten",
 	"wlm-text-news": "Nieuws",
-	"wlm-text-participate": "Meedoen!",
+	"wlm-text-participate": "Doe mee!",
 	"wlm-text-prizes": "Prijzen",
 	"wlm-text-rules": "Spelregels",
 	"wlm-text-sponsors": "Sponsoren",
