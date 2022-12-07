@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"McDutchie"
 		]
 	},
 	"wlm-extension-desc": "Voegt gegevens en berichten toe over de fotowedstrijd Wiki Loves Monuments",
@@ -18,7 +19,7 @@
 	"wlm-text-jury": "Jury",
 	"wlm-text-monuments": "Monumenten",
 	"wlm-text-news": "Nieuws",
-	"wlm-text-participate": "Meedoen!",
+	"wlm-text-participate": "Doe mee!",
 	"wlm-text-prizes": "Prijzen",
 	"wlm-text-rules": "Spelregels",
 	"wlm-text-sponsors": "Sponsoren",
