@@ -5,8 +5,23 @@
 			"Janezdrilc"
 		]
 	},
+	"wlm-extension-desc": "Doda informacije in sporočila za fotografski natečaj Wiki Loves Monuments",
+	"wlm-no-contest-year": "V let $1 ni bilo natečaja Wiki Loves Monument.",
+	"wlm-no-url-bad-country": "Spletnega mesta za lokalno tekmovanje nismo mogli pridobiti. $1 ni veljavna oznaka države.",
+	"wlm-country-not-given": "Vnesti morate kodo države.",
+	"wlm-country-not-participating-year": "»$1« ne sodeluje v Wiki Loves Monuments $2",
+	"wlm-sidebar-portlet": "Druge države",
+	"wlm-international-contest": "Mednarodno",
 	"wlm-text-contact": "Stik",
+	"wlm-text-contest": "Natečaj",
+	"wlm-text-donate": "Prispevajte",
 	"wlm-text-faq": "Pogosta vprašanja",
+	"wlm-text-jury": "Žirija",
+	"wlm-text-monuments": "Spomeniki",
 	"wlm-text-news": "Novice",
+	"wlm-text-participate": "Sodelujte!",
+	"wlm-text-prizes": "Nagrade",
+	"wlm-text-rules": "Pravila",
+	"wlm-text-sponsors": "Sponzorji",
 	"wlm-text-uploading": "Nalaganje"
 }
