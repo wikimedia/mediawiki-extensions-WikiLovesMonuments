@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bosogo",
 			"Growingup"
 		]
 	},
 	"wlm-text-faq": "КБС",
-	"wlm-text-news": "Жаңылыктар"
+	"wlm-text-news": "Жаңылыктар",
+	"wlm-text-uploading": "Жүктөлүүдө"
 }
