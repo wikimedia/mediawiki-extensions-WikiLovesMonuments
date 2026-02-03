@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"wlm-sidebar-portlet": "نور هېوادونه",
@@ -12,5 +13,5 @@
 	"wlm-text-news": "خبرونه",
 	"wlm-text-prizes": "جايزې",
 	"wlm-text-rules": "قوانين",
-	"wlm-text-uploading": "د پورته کولو په حال کې..."
+	"wlm-text-uploading": "راپورته‌کول"
 }
