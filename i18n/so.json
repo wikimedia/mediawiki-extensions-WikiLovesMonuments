@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"wlm-extension-desc": "Wuxuu ku daraa macluumaad iyo farriimo la xiriira tartanka sawir qaadista Wiki Loves Monuments",
+	"wlm-no-contest-year": "Ma jirin tartan Wiki Loves Monuments ah oo ka dhacay $1.",
+	"wlm-no-url-bad-country": "Ma aanan heli karin bogga internetka ee tartanka maxalliga ah. $1 ma aha kood waddan oo sax ah.",
+	"wlm-country-not-given": "Waxaad u baahan tahay inaad bixiso koodka waddanka.",
+	"wlm-country-not-participating-year": "«$1» kama qaybqaadanayo Wiki Loves Monuments $2",
+	"wlm-sidebar-portlet": "Waddamada kale",
+	"wlm-international-contest": "Caalami ah",
+	"wlm-text-contact": "Xiriir",
+	"wlm-text-contest": "Tartan",
+	"wlm-text-donate": "Ku deeq",
+	"wlm-text-faq": "Su'aalaha inta badan la isweydiiyo",
+	"wlm-text-jury": "Guddiga garsoorka",
+	"wlm-text-monuments": "Taallooyin",
+	"wlm-text-news": "Wararka",
+	"wlm-text-participate": "Ka qaybgal!",
+	"wlm-text-prizes": "Abaalmarinnada",
+	"wlm-text-rules": "Xeerarka",
+	"wlm-text-sponsors": "Maalgeliyayaasha",
+	"wlm-text-uploading": "Soo gelinta"
+}
