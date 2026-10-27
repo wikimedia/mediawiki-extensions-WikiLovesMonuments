@@ -19,7 +19,7 @@
 	"wlm-text-jury": "Jury",
 	"wlm-text-monuments": "Denkmäler",
 	"wlm-text-news": "Neuigkeiten",
-	"wlm-text-participate": "Mach mit!",
+	"wlm-text-participate": "{{#FORMAL:Mach|Machen Sie}} mit!",
 	"wlm-text-prizes": "Preise",
 	"wlm-text-rules": "Regeln",
 	"wlm-text-sponsors": "Sponsoren",
